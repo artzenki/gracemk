@@ -1,0 +1,44 @@
+body {
+	background-color: #161617;
+}
+
+.menuimg {
+	width: 100%;
+	height: auto;
+}
+
+.pdd {
+	padding: 5%;
+}
+
+.bgc {
+	background-color: #202020;
+}
+.bgc2 {
+	background-color: #75A4C5;
+}
+
+.bgc3 {
+	background-color: #161617;
+
+.pdx {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.center {
+	margin: auto;
+	width: 100%;
+	padding: 20px;
+    padding-top: 20px;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.parent {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
