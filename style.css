@@ -2,6 +2,46 @@ body {
 	background-color: #090909;
 }
 
+.opacity {
+	opacity: 60%;
+}
+
+a:link {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:active {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+  }
+
+
+footer {
+	display: block;
+	text-align: center;
+	padding: 8px;
+	background-color: #161617;
+	color: white;
+	font-family: 'Poppins';
+	font-size:16px;
+	font-weight:600;
+}
+
 .menuimg {
 	width: 100%;
 	height: auto;
