@@ -76,3 +76,7 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+
+.mw {
+	max-width: 800px;
+}
