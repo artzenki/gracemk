@@ -21,37 +21,54 @@
       <title>GRACE Bar & Lounge</title>
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWCPSX9D0K"></script>
-   <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWCPSX9D0K"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-QWCPSX9D0K');
+      </script>
 
-   gtag('config', 'G-QWCPSX9D0K');
-   </script>
+     <script>
+      tailwind.config = {
+         theme: {
+         container: {
+         center: true,
+            padding: {
+               DEFAULT: '2rem',
+               sm: '8rem',
+               lg: '12rem',
+               xl: '14rem',
+               '2xl': '24rem',
+      },
+    },
+  },
+}
+    </script>
 
 </head> 
-<body>
-   <div class="bgc">
-      <div class="pdd pdx">
-              <img src="img/1 Grace.jpeg" class="lozad menuimage mw" alt="Grace">
-              <img src="img/2 Enjoy the night.jpeg" class="lozad menuimag mw" alt="Enjoy the night">
-              <img src="img/3 Drinks.jpeg" class="lozad menuimag mw" alt="Drinks">
-              <img src="img/4 Drinks 2.jpeg" class="lozad menuimag mw" alt="Drinks">
-              <img src="img/5 Hot Drinks.jpeg" class="lozad menuimag mw" alt="Hot Drinks">
-              <img src="img/6 Cocktails.jpeg" class="lozad menuimag mw" alt="Cocktail's">
-              <img src="img/7 Pizza.jpeg" class="lozad menuimag mw" alt="Pizza">
-              <img src="img/8 Desserts.jpeg" class="lozad menuimag mw" alt="Desserts">
-              <img src="img/9 Shisha.jpeg" class="lozad menuimag mw" alt="Shisha">
-              <img src="img/10 Special.jpeg" class="lozad menuimag mw" alt="Special">
-              <img src="img/11 Grace 2.jpeg" class="lozad menuimag mw" alt="Grace">
-        </div>
+
+<body class="container py-8">
+      <div>
+          <img src="img/grace.jpeg" class="lozad" alt="Grace">
+          <img src="img/2 Enjoy the night.jpeg" class="lozad" alt="Enjoy the night">
+          <img src="img/3 Drinks.jpeg" class="lozad" alt="Drinks">
+          <img src="img/4 Drinks 2.jpeg" class="lozad" alt="Drinks">
+          <img src="img/5 Hot Drinks.jpeg" class="lozad" alt="Hot Drinks">
+          <img src="img/6 Cocktails.jpeg" class="lozad" alt="Cocktail's">
+          <img src="img/7 Pizza.jpeg" class="lozad" alt="Pizza">
+          <img src="img/8 Desserts.jpeg" class="lozad" alt="Desserts">
+          <img src="img/9 Shisha.jpeg" class="lozad" alt="Shisha">
+          <img src="img/10 Special.jpeg" class="lozad" alt="Special">
+          <img src="img/11 Grace 2.jpeg" class="lozad" alt="Grace">
+      </div>
 
         <footer>
          <p class="opacity">Powered by: <span><a href="https://www.instagram.com/artzenki" target="_blank" rel="noopener">Art Zenki</a></span></p> 
         </footer>
         
         <script src="cookie.notice.js"></script>
-   </div>   
 </body>
 </html>
