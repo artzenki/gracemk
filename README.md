@@ -4,4 +4,3 @@ A website, displaying only images and a footer with powered by text. This websit
 
 GA4 is provided with cookie notice pop up.
 # traiknez
-ss
