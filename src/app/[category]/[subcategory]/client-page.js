@@ -1,12 +1,11 @@
 import CategoryLayout from "@/app/category-layout";
 
-export default function CocktailPage({ data }) {
-  console.log(data);
+export default function SubcategoryPage({ data }) {
   return (
     <CategoryLayout title={data.name} image={data.image}>
       <div className="max-w-[500px] mx-auto py-16">
         <ul className="grid grid-cols-1 gap-4">
-          {data?.products.map((product, index) => (
+          {data.products?.map((product, index) => (
             <li key={index} className="bg-black p-2 space-y-4">
               <div className="flex items-center justify-between">
                 <h5 className="font-semibold text-lg tracking-widest text-orange-200">
@@ -26,7 +25,7 @@ export default function CocktailPage({ data }) {
               </div>
             </li>
           ))}
-          {data?.reagents && (
+          {data.reagents && (
             <div className="bg-black p-2 space-y-2">
               {Object.keys(data.reagents).map((key) => (
                 <div key={key} className="flex items-center space-x-1">

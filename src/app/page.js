@@ -2,6 +2,7 @@ import Image from "next/image";
 import { data } from "../content";
 import Logo from "../../public/images/grace-logo.png";
 import bg from "../../public/images/bg.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-8 py-16">
             {data.map((item) => {
               return (
-                <a
+                <Link
                   href={item.category}
                   className="inline-flex items-center space-x-4 border border-orange-200"
                   key={item.category}>
@@ -36,7 +37,7 @@ export default function Home() {
                   <h2 className="text-center mt-4 text-lg font-medium text-orange-200 uppercase tracking-widest">
                     {item.category}
                   </h2>
-                </a>
+                </Link>
               );
             })}
           </div>

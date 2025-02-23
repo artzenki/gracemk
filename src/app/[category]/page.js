@@ -4,17 +4,21 @@ import { data } from "../../content";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Cockatils() {
-  const subcategories = data.find(
-    (cat) => cat.category === "cocktails"
-  ).subcategories;
+export default function CategoryPage({ params }) {
+  const { category } = params;
+  const categoryData = data.find((cat) => cat.category === category);
+
+  if (!categoryData) {
+    return <div>Category not found</div>;
+  }
+
   return (
-    <CategoryLayout title="Cocktails" image="/images/cocktail-01.jpg">
+    <CategoryLayout title={categoryData.category} image={categoryData.image}>
       <div className="container">
         <ul className="grid md:grid-cols-3 gap-4 py-16">
-          {subcategories.map((subcategory) => (
+          {categoryData.subcategories.map((subcategory) => (
             <Link
-              href={`/cocktails/${subcategory.slug}`}
+              href={`/${category}/${subcategory.slug}`}
               key={subcategory.name}>
               <li className="border-2 border-yellow-200 relative">
                 <Image
