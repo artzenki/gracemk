@@ -1,20 +1,20 @@
-import React from "react";
-import CategoryLayout from "../category-layout";
-import { data } from "@/content";
+import CategoryLayout from "@/app/category-layout";
 import Image from "next/image";
+import { data } from "@/content";
 import Link from "next/link";
 
-export default function Food() {
+export default function Drinks() {
   const subcategories = data.find(
-    (cat) => cat.category === "food"
+    (cat) => cat.category === "drinks"
   ).subcategories;
+
   return (
-    <CategoryLayout title="Food">
+    <CategoryLayout title="Drinks">
       <div className="container">
         <div className="max-w-[500px] mx-auto">
           <ul className="grid grid-cols-3 gap-x-4 py-16">
             {subcategories.map((subcategory) => (
-              <Link href={`/food/${subcategory.slug}`} key={subcategory.name}>
+              <Link href={`/drinks/${subcategory.slug}`} key={subcategory.name}>
                 <li className="border-2 border-yellow-200 relative">
                   <Image
                     src={"/images/color.jpg"}

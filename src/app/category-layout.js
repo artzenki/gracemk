@@ -7,7 +7,7 @@ import bg from "../../public/images/bg.jpg";
 
 export default function CategoryLayout({ children, title }) {
   return (
-    <div>
+    <div className="h-full">
       {/* Header Section */}
       <div className="relative">
         <button

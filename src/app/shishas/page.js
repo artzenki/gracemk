@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { data } from "../../content";
 import CategoryLayout from "@/app/category-layout";
+import Link from "next/link";
 
 export default function Shishas() {
   const subcategories = data.find(
@@ -15,7 +16,9 @@ export default function Shishas() {
         <div className="max-w-[500px] mx-auto">
           <ul className="grid grid-cols-3 gap-x-4 py-16">
             {subcategories.map((subcategory) => (
-              <a href={`/shishas/${subcategory.slug}`} key={subcategory.name}>
+              <Link
+                href={`/shishas/${subcategory.slug}`}
+                key={subcategory.name}>
                 <li className="border-2 border-yellow-200 relative">
                   <Image
                     src={"/images/color.jpg"}
@@ -27,7 +30,7 @@ export default function Shishas() {
                     {subcategory.name}
                   </h2>
                 </li>
-              </a>
+              </Link>
             ))}
           </ul>
         </div>

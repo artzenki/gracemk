@@ -308,4 +308,142 @@ export const data = [
       },
     ],
   },
+  {
+    category: "drinks",
+    image: "/images/color.jpg",
+    subcategories: [
+      {
+        name: "Hot Drinks",
+        slug: "hot-drinks",
+        products: [
+          {
+            id: 6,
+            name: "Espresso",
+            price: 10,
+            description: "Keeps your hose fresh",
+          },
+          {
+            id: 7,
+            name: "Macchiato",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Americano",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Capuccino",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Large Capuccino",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Large Macchiato",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Latte Macchiato",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Nescafe",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Hot Chocolate",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Bambi",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Tea",
+            price: 15,
+            description: "Reduces heat",
+          },
+        ],
+      },
+      {
+        name: "Cold Drinks",
+        slug: "cold-drinks",
+        products: [
+          {
+            id: 6,
+            name: "Coca Cola",
+            price: 10,
+            description: "Keeps your hose fresh",
+          },
+          {
+            id: 7,
+            name: "Fanta",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Sprite",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Schweppes",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Red Bull",
+            price: 15,
+            description: "Reduces heat",
+          },
+        ],
+      },
+      {
+        name: "Soft Drinks",
+        slug: "soft-drinks",
+        products: [
+          {
+            id: 6,
+            name: "Still Water",
+            price: 10,
+            description: "Keeps your hose fresh",
+          },
+          {
+            id: 7,
+            name: "Orange Juice",
+            price: 15,
+            description: "Reduces heat",
+          },
+          {
+            id: 7,
+            name: "Apple Juice",
+            price: 15,
+            description: "Reduces heat",
+          },
+        ],
+      },
+    ],
+  },
 ];
