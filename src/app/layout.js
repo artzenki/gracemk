@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
+import SVG from "react-inlinesvg";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,6 +24,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col`}>
         {children}
+        <Link href="/" className="fixed bottom-0 py-2 bg-orange-200 w-full">
+          <SVG src="/svg/home.svg" className="size-8 mx-auto" />
+        </Link>
       </body>
     </html>
   );
