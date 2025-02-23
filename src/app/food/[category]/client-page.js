@@ -4,7 +4,7 @@ import CategoryLayout from "../../category-layout";
 
 export default function FoodPage({ data }) {
   return (
-    <CategoryLayout title={data?.name}>
+    <CategoryLayout title={data?.name} image={data.image}>
       <div className="max-w-[500px] mx-auto py-16">
         <ul className="grid grid-cols-1 gap-4">
           {data?.products.map((product, index) => (

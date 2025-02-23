@@ -25,7 +25,7 @@ export default function Shishas() {
                     alt={subcategory.name}
                     width={200}
                     height={200}
-                    className="size-52 object-cover"
+                    className="object-cover h-32"
                   />
                   <h2 className="text-sm font-semibold text-white absolute bottom-2 left-2">
                     {subcategory.name}

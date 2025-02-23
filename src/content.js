@@ -154,6 +154,7 @@ export const data = [
       {
         name: "Red Bull Cocktails",
         slug: "redbull-coctails",
+        image: "/images/cocktail-02.jpg",
         products: [
           {
             id: 4,
@@ -190,6 +191,7 @@ export const data = [
       {
         name: "Pizza",
         slug: "pizza",
+        image: "/images/food-01.jpg",
         products: [
           {
             id: 6,
@@ -262,6 +264,7 @@ export const data = [
       {
         name: "Desserts",
         slug: "desserts",
+        image: "/images/desert-01.png",
         products: [
           {
             id: 6,
@@ -298,6 +301,7 @@ export const data = [
       {
         name: "Snacks",
         slug: "snacks",
+        image: "/images/food-01.jpg",
         products: [
           {
             id: 6,
@@ -322,6 +326,7 @@ export const data = [
       {
         name: "Hot Drinks",
         slug: "hot-drinks",
+        image: "/images/drink-01.png",
         products: [
           {
             id: 6,
@@ -394,6 +399,7 @@ export const data = [
       {
         name: "Cold Drinks",
         slug: "cold-drinks",
+        image: "/images/drink-01.png",
         products: [
           {
             id: 6,
@@ -430,6 +436,7 @@ export const data = [
       {
         name: "Soft Drinks",
         slug: "soft-drinks",
+        image: "/images/drink-01.png",
         products: [
           {
             id: 6,

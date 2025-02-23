@@ -15,10 +15,11 @@ export default function Cockatils() {
           <Link href={`/cocktails/${subcategory.slug}`} key={subcategory.name}>
             <li className="border-2 border-yellow-200 relative">
               <Image
-                src={"/images/color.jpg"}
+                src={subcategory.image}
                 alt={subcategory.name}
                 width={200}
                 height={200}
+                className="object-cover h-32"
               />
               <h2 className="text-sm font-semibold text-white absolute bottom-2 left-2">
                 {subcategory.name}

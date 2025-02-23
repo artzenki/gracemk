@@ -3,7 +3,7 @@ import CategoryLayout from "@/app/category-layout";
 export default function CocktailPage({ data }) {
   console.log(data);
   return (
-    <CategoryLayout title={"Cocktails"}>
+    <CategoryLayout title={data.name} image={data.image}>
       <div className="max-w-[500px] mx-auto py-16">
         <ul className="grid grid-cols-1 gap-4">
           {data?.products.map((product, index) => (
