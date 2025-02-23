@@ -1,5 +1,5 @@
 import { data } from "../../../content";
-import FoodPage from "./client-page";
+import DrinkPage from "./client-page";
 
 export default async function Drink({ params }) {
   const { category } = await params;
@@ -10,5 +10,5 @@ export default async function Drink({ params }) {
     (sub) => sub.slug === category
   );
 
-  return <FoodPage data={subcategoryData} />;
+  return <DrinkPage data={subcategoryData} />;
 }
