@@ -1,23 +1,24 @@
 import Image from "next/image";
 import { data } from "../content";
-import SVG from "react-inlinesvg";
 import color from "../../public/images/color.jpg";
+import Logo from "../../public/images/grace-logo.png";
 import bg from "../../public/images/bg.jpg";
 
 export default function Home() {
   return (
-    <div className="relative h-full">
+    <div className="h-full">
       <Image
         src={bg}
         alt={"Background image"}
         fill={true}
-        className="absolute -z-10"
-        style={{
-          objectFit: "cover",
-        }}
+        className="absolute -z-10 w-full object-cover"
       />
       <div className="container py-12">
-        <SVG src="svg/logo.svg" className="w-96 h-24 mx-auto" />
+        <Image
+          src={Logo}
+          alt={"Background image"}
+          className="w-96 h-24 mx-auto"
+        />
         <div className="max-w-[500px] mx-auto">
           <div className="grid grid-cols-1 gap-8 py-16">
             {data.map((item) => {
