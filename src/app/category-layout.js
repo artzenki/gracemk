@@ -2,10 +2,9 @@
 
 import Image from "next/image";
 import SVG from "react-inlinesvg";
-import color from "../../public/images/color.jpg";
 import bg from "../../public/images/bg.jpg";
 
-export default function CategoryLayout({ children, title }) {
+export default function CategoryLayout({ children, title, image }) {
   return (
     <div className="h-full">
       {/* Header Section */}
@@ -16,11 +15,11 @@ export default function CategoryLayout({ children, title }) {
           <SVG src="/svg/arrow.svg" />
         </button>
         <Image
-          src={color}
+          src={image}
           alt={"Background image"}
           width={1920}
           height={200}
-          className="w-full h-[200px] -z-10"
+          className="w-full h-[200px] object-cover -z-10"
         />
         <h3 className="absolute left-4 bottom-4 text-xl text-white font-semibold">
           {title}

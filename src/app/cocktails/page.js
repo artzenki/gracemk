@@ -9,7 +9,7 @@ export default function Cockatils() {
     (cat) => cat.category === "cocktails"
   ).subcategories;
   return (
-    <CategoryLayout title="Cocktails">
+    <CategoryLayout title="Cocktails" image="/images/cocktail-01.jpg">
       <ul className="grid grid-cols-3 gap-x-4 py-16">
         {subcategories.map((subcategory) => (
           <Link href={`/cocktails/${subcategory.slug}`} key={subcategory.name}>

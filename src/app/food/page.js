@@ -9,7 +9,7 @@ export default function Food() {
     (cat) => cat.category === "food"
   ).subcategories;
   return (
-    <CategoryLayout title="Food">
+    <CategoryLayout title="Food" image="/images/food-01.jpg">
       <div className="container">
         <div className="max-w-[500px] mx-auto">
           <ul className="grid grid-cols-3 gap-x-4 py-16">

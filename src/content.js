@@ -1,10 +1,12 @@
 export const data = [
   {
     category: "shishas",
+    image: "/images/shisha-01.jpg",
     subcategories: [
       {
         slug: "7-days",
         name: "7 Days",
+        image: "/images/shisha-03.jpg",
         products: [
           {
             id: 1,
@@ -18,6 +20,7 @@ export const data = [
       {
         slug: "grace-shishas",
         name: "Grace Shishas",
+        image: "/images/shisha-01.jpg",
         products: [
           {
             id: 2,
@@ -45,6 +48,7 @@ export const data = [
       {
         name: "Social Smoke",
         slug: "social-smoke",
+        image: "/images/shisha-02.jpg",
         products: [
           {
             id: 2,
@@ -66,10 +70,12 @@ export const data = [
   },
   {
     category: "cocktails",
+    image: "/images/cocktail-01.jpg",
     subcategories: [
       {
         name: "Grace Coctails",
         slug: "grace-coctails",
+        image: "/images/cocktail-01.jpg",
         products: [
           {
             id: 4,
@@ -179,6 +185,7 @@ export const data = [
   },
   {
     category: "food",
+    image: "/images/food-01.jpg",
     subcategories: [
       {
         name: "Pizza",
@@ -310,7 +317,7 @@ export const data = [
   },
   {
     category: "drinks",
-    image: "/images/color.jpg",
+    image: "/images/desert-01.png",
     subcategories: [
       {
         name: "Hot Drinks",

@@ -9,7 +9,7 @@ export default function Drinks() {
   ).subcategories;
 
   return (
-    <CategoryLayout title="Drinks">
+    <CategoryLayout title="Drinks" image="/images/drink-01.png">
       <div className="container">
         <div className="max-w-[500px] mx-auto">
           <ul className="grid grid-cols-3 gap-x-4 py-16">

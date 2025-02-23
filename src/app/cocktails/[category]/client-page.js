@@ -1,6 +1,7 @@
 import CategoryLayout from "@/app/category-layout";
 
 export default function CocktailPage({ data }) {
+  console.log(data);
   return (
     <CategoryLayout title={"Cocktails"}>
       <div className="max-w-[500px] mx-auto py-16">

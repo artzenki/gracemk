@@ -11,7 +11,7 @@ export default function Shishas() {
   ).subcategories;
 
   return (
-    <CategoryLayout title="Shishas">
+    <CategoryLayout title="Shishas" image="/images/shisha-01.jpg">
       <div className="container">
         <div className="max-w-[500px] mx-auto">
           <ul className="grid grid-cols-3 gap-x-4 py-16">
@@ -21,10 +21,11 @@ export default function Shishas() {
                 key={subcategory.name}>
                 <li className="border-2 border-yellow-200 relative">
                   <Image
-                    src={"/images/color.jpg"}
+                    src={subcategory.image}
                     alt={subcategory.name}
                     width={200}
                     height={200}
+                    className="size-52 object-cover"
                   />
                   <h2 className="text-sm font-semibold text-white absolute bottom-2 left-2">
                     {subcategory.name}

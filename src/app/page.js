@@ -28,10 +28,11 @@ export default function Home() {
                   className="inline-flex items-center space-x-4 border border-orange-200"
                   key={item.category}>
                   <Image
-                    src={color}
+                    src={item.image}
                     alt={item.category}
                     width={200}
                     height={200}
+                    className="size-52 object-cover"
                   />
                   <h2 className="text-center mt-4 text-lg font-medium text-orange-200 uppercase tracking-widest">
                     {item.category}
