@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { data } from "../content";
-import color from "../../public/images/color.jpg";
 import Logo from "../../public/images/grace-logo.png";
 import bg from "../../public/images/bg.jpg";
 
 export default function Home() {
   return (
-    <div className="h-full">
+    <div className="min-h-screen relative">
       <Image
         src={bg}
         alt={"Background image"}

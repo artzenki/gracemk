@@ -1,12 +1,11 @@
 "use client";
-
 import Image from "next/image";
 import SVG from "react-inlinesvg";
 import bg from "../../public/images/bg.jpg";
 
 export default function CategoryLayout({ children, title, image }) {
   return (
-    <div className="h-full">
+    <div className="min-h-screen relative">
       {/* Header Section */}
       <div className="relative">
         <button
@@ -25,17 +24,13 @@ export default function CategoryLayout({ children, title, image }) {
           {title}
         </h3>
       </div>
-
       {/* Content Section */}
-      <div className="relative h-full">
+      <div className="relative min-h-screen">
         <Image
           src={bg}
           alt={"Background image"}
           fill={true}
-          className="absolute -z-10"
-          style={{
-            objectFit: "cover",
-          }}
+          className="absolute inset-0 -z-10 w-full h-full object-cover"
         />
         <div className="max-w-[500px] mx-auto py-16">{children}</div>
       </div>
