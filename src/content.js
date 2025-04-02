@@ -73,112 +73,148 @@ export const data = [
     image: "/images/cocktail-01.jpg",
     subcategories: [
       {
-        name: "Grace Coctails",
-        slug: "grace-coctails",
+        name: "Mojito",
+        slug: "mojito",
         image: "/images/cocktail-01.jpg",
         products: [
           {
-            id: 4,
+            id: 10,
             name: "Mojito",
-            price: 200,
-            description: "Easy to light",
+            price: "200 Den",
+            description: "Lime, Mojito Mint, Sprite, Tonic",
           },
           {
-            id: 5,
+            id: 10,
             name: "Mojito Strawberry",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Strawberry",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Pure Strawberry",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Cherry",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Pina Colada",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Sex on the beach",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Blue Lagoon",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Passion Fruit",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Green Cat",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Mango",
-            price: 200,
-            description: "Long-lasting",
-          },
-          {
-            id: 5,
-            name: "Grace Cocktail",
-            price: 350,
-            description: "Long-lasting",
+            price: "200 Den",
+            description:
+              "Lime, Mojito Mint, Strawberry, Grenadine, Sprite, Tonic",
           },
         ],
       },
       {
-        name: "Red Bull Cocktails",
-        slug: "redbull-coctails",
-        image: "/images/cocktail-02.jpg",
+        name: "Strawberry",
+        slug: "strawberry",
+        image: "/images/cocktail-01.jpg",
         products: [
           {
-            id: 4,
-            name: "Red Bull Tropical Pleasure",
-            price: 270,
-            description: "Easy to light",
+            id: 11,
+            name: "Strawberry",
+            price: "200 Den",
+            description: "Strawberry, Grenadine, Pineapple Juice, Orange Juice",
           },
           {
-            id: 5,
-            name: "Red Bull Colada",
-            price: 270,
-            description: "Long-lasting",
+            id: 11,
+            name: "Pure Strawberry",
+            price: "200 Den",
+            description: " ",
           },
+        ],
+      },
+      {
+        name: "Cherry",
+        slug: "cherry",
+        image: "/images/cocktail-01.jpg",
+        products: [
           {
-            id: 5,
-            name: "Red Bull Goes Down",
-            price: 270,
-            description: "Long-lasting",
+            id: 12,
+            name: "Cherry",
+            price: "200 Den",
+            description:
+              "Cherry, Lemon Rantcho, Grenadine, Cherry Juice, Apple Juice",
           },
+        ],
+      },
+      {
+        name: "Pina Colada",
+        slug: "pina-colada",
+        image: "/images/cocktail-01.jpg",
+        products: [
           {
-            id: 5,
-            name: "Red Bull Watermelon Pleasure",
-            price: 270,
-            description: "Long-lasting",
+            id: 13,
+            name: "Pina Colada",
+            price: "200 Den",
+            description: "Coconut, Pineapple Juice, Milk, Whipped Cream",
+          },
+        ],
+      },
+      {
+        name: "Sex on the Beach",
+        slug: "sex-on-the-beach",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 14,
+            name: "Sex on the Beach",
+            price: "200 Den",
+            description: "Vanilla ,Grenadine, Orange Juice, Peach Juice",
+          },
+        ],
+      },
+      {
+        name: "Blue Lagoon",
+        slug: "blue-lagoon",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 15,
+            name: "Blue Lagoon",
+            price: "200 Den",
+            description: "Blue Curacao, Lemon Rantcho, Sprite",
+          },
+        ],
+      },
+      {
+        name: "Passion Fruit",
+        slug: "passion-fruit",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 16,
+            name: "Passion Fruit",
+            price: "200 Den",
+            description:
+              "Passion Fruit, Blue Curacao, Orange Juice, Peach Juice, Pineapple Juice",
+          },
+        ],
+      },
+      {
+        name: "Green Cat",
+        slug: "green-cat",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 17,
+            name: "Green Cat",
+            price: "200 Den",
+            description:
+              "Blue Curacao, Lemon Rantcho, Apple Juice, Kiwi Juice, Orange Juice",
+          },
+        ],
+      },
+      {
+        name: "Mango",
+        slug: "mango",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 18,
+            name: "Mango",
+            price: "200 Den",
+            description: "Mango, Orange Juice, Pineapple Juice",
+          },
+        ],
+      },
+      {
+        name: "Grace Cocktail",
+        slug: "grace-c",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 19,
+            name: "Grace Cocktail",
+            price: "200 Den",
+            description: " ",
           },
         ],
       },
