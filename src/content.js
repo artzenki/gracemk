@@ -221,6 +221,64 @@ export const data = [
     ],
   },
   {
+    category: "RedbullCocktails",
+    image: "/images/cocktail-01.jpg",
+    subcategories: [
+      {
+        name: "Tropical Pleasure",
+        slug: "rb-tropical-pleasure",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 20,
+            name: "Tropical Pleasure",
+            price: "270 Den",
+            description: "Mango, Pineapple Juice",
+          },
+        ],
+      },
+      {
+        name: "Colada",
+        slug: "rb-colada",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 21,
+            name: "Colada",
+            price: "270 Den",
+            description: "Blue Curacao, Lemon Rantcho, Orange Juice",
+          },
+        ],
+      },
+      {
+        name: "Bull Goes Down",
+        slug: "rb-bull-goes-down",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 22,
+            name: "Bull Goes Down",
+            price: "270 Den",
+            description: "Blue Curacao, Vanilla, Orange Juice",
+          },
+        ],
+      },
+      {
+        name: "Watermelon Pleasure",
+        slug: "rb-watermelon-pleasure",
+        image: "/images/cocktail-01.jpg",
+        products: [
+          {
+            id: 23,
+            name: "Watermelon Pleasure",
+            price: "270 Den",
+            description: "Watermelon, Cherry",
+          },
+        ],
+      },
+    ],
+  },
+  {
     category: "food",
     image: "/images/food-01.jpg",
     subcategories: [
