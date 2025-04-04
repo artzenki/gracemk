@@ -242,7 +242,7 @@ export const data = [
     ],
   },
   {
-    category: "RedbullCocktails",
+    category: "redbull-cocktails",
     image: "/images/cocktail-01.jpg",
     subcategories: [
       {

@@ -2,7 +2,7 @@ import { data } from "@/content";
 import SubcategoryPage from "./client-page";
 
 export default async function SubcategoryPageWrapper({ params }) {
-  const { category, subcategory } = params;
+  const { category, subcategory } = await params;
 
   const categoryData = data.find((item) => item.category === category);
   const subcategoryData =

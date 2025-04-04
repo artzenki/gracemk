@@ -4,8 +4,8 @@ import { data } from "../../content";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function CategoryPage({ params }) {
-  const { category } = params;
+export default async function CategoryPage({ params }) {
+  const { category } = await params;
   const categoryData = data.find((cat) => cat.category === category);
 
   if (!categoryData) {

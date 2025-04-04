@@ -35,7 +35,7 @@ export default function Home() {
                     className="size-52 object-cover"
                   />
                   <h2 className="text-center mt-4 text-lg font-medium text-orange-200 uppercase tracking-widest">
-                    {item.category}
+                    {formatCategory(item.category)}
                   </h2>
                 </Link>
               );
@@ -45,4 +45,11 @@ export default function Home() {
       </div>
     </div>
   );
+}
+
+function formatCategory(slug) {
+  return slug
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
