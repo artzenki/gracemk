@@ -79,14 +79,14 @@ export const data = [
             reagent: "123",
           },
         ],
+        reagents: {
+          1: "Mint",
+          2: "Chocolate",
+          3: "Tropical",
+          4: "Mix",
+          5: "Double",
+        },
       },
-      // reagents: {
-      //   1: "Mint",
-      //   2: "Chocolate",
-      //   3: "Tropical",
-      //   4: "Mix",
-      //   5: "Double",
-      // },
     ],
   },
   {

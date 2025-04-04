@@ -1,7 +1,9 @@
 "use client";
+
 import Image from "next/image";
 import SVG from "react-inlinesvg";
 import bg from "../../public/images/bg.jpg";
+import formatCategory from "@/helpers";
 
 export default function CategoryLayout({ children, title, image }) {
   return (
@@ -21,7 +23,7 @@ export default function CategoryLayout({ children, title, image }) {
           className="w-full h-[200px] object-cover -z-10"
         />
         <h3 className="absolute left-4 bottom-4 text-xl text-white font-semibold">
-          {title}
+          {formatCategory(title)}
         </h3>
       </div>
       {/* Content Section */}

@@ -14,9 +14,11 @@ export default function SubcategoryPage({ data }) {
                   </h5>
                   <p className="text-orange-200 text-sm">{product.reagent}</p>
                 </div>
-                <p className="text-sm uppercase tracking-widest">
-                  {product.desc}
-                </p>
+                {product.description && (
+                  <p className="text-sm uppercase tracking-widest">
+                    {product.description}
+                  </p>
+                )}
                 <div className="flex items-center justify-between">
                   <p className="text-xs tracking-widest">1X</p>
                   <div className="border-b border-white w-full mx-4 h-4"></div>

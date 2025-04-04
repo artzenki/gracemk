@@ -3,6 +3,7 @@ import { data } from "../content";
 import Logo from "../../public/images/grace-logo.png";
 import bg from "../../public/images/bg.jpg";
 import Link from "next/link";
+import formatCategory from "@/helpers";
 
 export default function Home() {
   return (
@@ -45,11 +46,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
-
-function formatCategory(slug) {
-  return slug
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
 }
