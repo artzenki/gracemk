@@ -12,17 +12,18 @@ export default function CategoryLayout({ children, title, image }) {
       <div className="relative">
         <button
           onClick={() => window.history.back()}
-          className="w-12 h-12 absolute top-4 left-4">
+          className="w-12 h-12 absolute top-4 left-4"
+        >
           <SVG src="/svg/arrow.svg" />
         </button>
         <Image
           src={image}
           alt={"Background image"}
           width={1920}
-          height={200}
-          className="w-full h-[200px] object-cover -z-10"
+          height={220}
+          className="w-full h-[220px] object-cover -z-10"
         />
-        <h3 className="absolute left-4 bottom-4 text-xl text-white font-semibold">
+        <h3 className="absolute left-4 bottom-4 text-xl filter shadow-lg text-white font-semibold">
           {formatCategory(title)}
         </h3>
       </div>
@@ -34,7 +35,7 @@ export default function CategoryLayout({ children, title, image }) {
           fill={true}
           className="absolute inset-0 -z-10 w-full h-full object-cover"
         />
-        <div className="max-w-[500px] mx-auto py-16">{children}</div>
+        <div className="max-w-[600px] mx-auto py-8">{children}</div>
       </div>
     </div>
   );

@@ -14,28 +14,29 @@ export default function Home() {
         fill={true}
         className="absolute -z-10 w-full object-cover"
       />
-      <div className="container py-12">
+      <div className="container py-8">
         <Image
           src={Logo}
           alt={"Background image"}
           className="w-96 h-24 mx-auto"
         />
-        <div className="max-w-[500px] mx-auto">
-          <div className="grid grid-cols-1 gap-8 py-16">
+        <div className="max-w-[600px] mx-auto">
+          <div className="grid grid-cols-1 gap-8 py-8">
             {data.map((item) => {
               return (
                 <Link
                   href={item.category}
-                  className="inline-flex items-center space-x-4 border border-orange-200"
-                  key={item.category}>
+                  className="inline-flex items-center space-x-2 border border-orange-200"
+                  key={item.category}
+                >
                   <Image
                     src={item.image}
                     alt={item.category}
                     width={200}
                     height={200}
-                    className="size-52 object-cover"
+                    className="size-44 object-cover"
                   />
-                  <h2 className="text-center mt-4 text-lg font-medium text-orange-200 uppercase tracking-widest">
+                  <h2 className="text-left mt-2 text-base font-extrabold text-orange-200">
                     {formatCategory(item.category)}
                   </h2>
                 </Link>

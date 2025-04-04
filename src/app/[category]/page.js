@@ -15,11 +15,12 @@ export default async function CategoryPage({ params }) {
   return (
     <CategoryLayout title={categoryData.category} image={categoryData.image}>
       <div className="container">
-        <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 py-16">
+        <ul className="grid grid-cols-3 md:grid-cols-3 gap-3 py-8">
           {categoryData.subcategories.map((subcategory) => (
             <Link
               href={`/${category}/${subcategory.slug}`}
-              key={subcategory.name}>
+              key={subcategory.name}
+            >
               <li className="border-2 border-yellow-200 relative">
                 <Image
                   src={subcategory.image}
