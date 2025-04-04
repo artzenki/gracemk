@@ -3,7 +3,7 @@ import { data } from "../content";
 import Logo from "../../public/images/grace-logo.png";
 import bg from "../../public/images/bg.jpg";
 import Link from "next/link";
-import formatCategory from "@/helpers";
+import formatCategory from "@/app/helpers";
 
 export default function Home() {
   return (

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import SVG from "react-inlinesvg";
 import bg from "../../public/images/bg.jpg";
-import formatCategory from "@/helpers";
+import formatCategory from "@/app/helpers";
 
 export default function CategoryLayout({ children, title, image }) {
   return (
