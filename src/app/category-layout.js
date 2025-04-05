@@ -23,7 +23,7 @@ export default function CategoryLayout({ children, title, image }) {
           height={220}
           className="w-full h-[220px] object-cover -z-10"
         />
-        <h3 className="absolute left-4 bottom-4 text-xl filter shadow-lg text-white font-semibold">
+        <h3 className="absolute left-4 bottom-4 text-xl filter text-white font-semibold">
           {formatCategory(title)}
         </h3>
       </div>
