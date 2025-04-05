@@ -1,68 +1,58 @@
 export const data = [
   {
     category: "shishas",
-    image: "/images/shisha-01.jpg",
+    image: "/images/shisha-b.jpg",
     subcategories: [
       {
         slug: "shishas",
         name: "Shisha",
-        image: "/images/shisha-03.jpg",
+        image: "/images/shisha1.jpg",
         products: [
           {
             id: 26,
             name: "Shisha",
-            desc: "==",
             price: "400 Den",
-            reagent: "123",
           },
         ],
       },
       {
         slug: "shisha-social-smoke",
         name: "Shisha Social Smoke",
-        image: "/images/shisha-03.jpg",
+        image: "/images/shisha2.jpg",
         products: [
           {
             id: 27,
             name: "Shisha Social Smoke",
-            desc: "==",
             price: "800 Den",
-            reagent: "123",
           },
         ],
       },
       {
         slug: "shisha-grace",
         name: "Shisha Grace",
-        image: "/images/shisha-03.jpg",
+        image: "/images/shisha3.jpg",
         products: [
           {
             id: 28,
             name: "Shisha Grace",
-            desc: "==",
             price: "600 Den",
-            reagent: "123",
           },
         ],
       },
       {
         slug: "fruit-shisha",
         name: "Fruit Shisha",
-        image: "/images/shisha-03.jpg",
+        image: "/images/shisha4.jpg",
         products: [
           {
             id: 29,
             name: "Fruit Shisha",
-            desc: "==",
             price: "3800 Den",
-            reagent: "123",
           },
           {
             id: 29,
             name: "Fruit Shisha Special",
-            desc: "==",
             price: "5000 Den",
-            reagent: "123",
           },
         ],
       },
@@ -74,9 +64,7 @@ export const data = [
           {
             id: 30,
             name: "7 Days",
-            desc: "==",
             price: "400 Den",
-            reagent: "123",
           },
         ],
         reagents: {
@@ -91,12 +79,12 @@ export const data = [
   },
   {
     category: "cocktails",
-    image: "/images/cocktail-01.jpg",
+    image: "/images/cocktails/c-Grace Cocktail.jpg",
     subcategories: [
       {
         name: "Mojito",
         slug: "mojito",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Mojito.jpg",
         products: [
           {
             id: 10,
@@ -116,7 +104,7 @@ export const data = [
       {
         name: "Strawberry",
         slug: "strawberry",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Strawberry.jpg",
         products: [
           {
             id: 11,
@@ -135,7 +123,7 @@ export const data = [
       {
         name: "Cherry",
         slug: "cherry",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Cherry.jpg",
         products: [
           {
             id: 12,
@@ -149,7 +137,7 @@ export const data = [
       {
         name: "Pina Colada",
         slug: "pina-colada",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Pina Colada.jpg",
         products: [
           {
             id: 13,
@@ -162,7 +150,7 @@ export const data = [
       {
         name: "Sex on the Beach",
         slug: "sex-on-the-beach",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Sex on the beach.jpg",
         products: [
           {
             id: 14,
@@ -175,7 +163,7 @@ export const data = [
       {
         name: "Blue Lagoon",
         slug: "blue-lagoon",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Blue Lagoon.jpg",
         products: [
           {
             id: 15,
@@ -188,7 +176,7 @@ export const data = [
       {
         name: "Passion Fruit",
         slug: "passion-fruit",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-placeholder.jpg",
         products: [
           {
             id: 16,
@@ -202,7 +190,7 @@ export const data = [
       {
         name: "Green Cat",
         slug: "green-cat",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Green Cat.jpg",
         products: [
           {
             id: 17,
@@ -216,7 +204,7 @@ export const data = [
       {
         name: "Mango",
         slug: "mango",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-placeholder.jpg",
         products: [
           {
             id: 18,
@@ -229,7 +217,7 @@ export const data = [
       {
         name: "Grace Cocktail",
         slug: "grace-c",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Grace Cocktail.jpg",
         products: [
           {
             id: 19,
@@ -243,12 +231,12 @@ export const data = [
   },
   {
     category: "redbull-cocktails",
-    image: "/images/cocktail-01.jpg",
+    image: "/images/cocktails/c-Red Bull Cocktail Red.jpg",
     subcategories: [
       {
         name: "Tropical Pleasure",
         slug: "rb-tropical-pleasure",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Red Bull Cocktail Yellow.jpg",
         products: [
           {
             id: 20,
@@ -261,7 +249,7 @@ export const data = [
       {
         name: "Colada",
         slug: "rb-colada",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Red Bull Cocktail Sugarfree.jpg",
         products: [
           {
             id: 21,
@@ -274,7 +262,7 @@ export const data = [
       {
         name: "Bull Goes Down",
         slug: "rb-bull-goes-down",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Red Bull Cocktail Normal.jpg",
         products: [
           {
             id: 22,
@@ -287,7 +275,7 @@ export const data = [
       {
         name: "Watermelon Pleasure",
         slug: "rb-watermelon-pleasure",
-        image: "/images/cocktail-01.jpg",
+        image: "/images/cocktails/c-Red Bull Cocktail Red.jpg",
         products: [
           {
             id: 23,
@@ -301,12 +289,12 @@ export const data = [
   },
   {
     category: "food",
-    image: "/images/food-01.jpg",
+    image: "/images/cocktails/c-Pizza.jpg",
     subcategories: [
       {
         name: "Pizza",
         slug: "pizza",
-        image: "/images/food-01.jpg",
+        image: "/images/cocktails/c-Pizza.jpg",
         products: [
           {
             id: 24,
@@ -314,18 +302,21 @@ export const data = [
             description:
               "Sos Domatesh, Kaçkavall, Mish i Thatë, Suxhuk, Këpurdha",
             price: "300 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
             name: "Pizza Tuna",
             description: "Sos Domatesh, Kaçkavall, Tuna",
             price: "300 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
             name: "Pizza Margarita",
             description: "Sos Domatesh, Kaçkavall",
             price: "270 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
@@ -333,6 +324,7 @@ export const data = [
             description:
               "Sos Domatesh, Kaçkavall, Gorgonzola, Mozzarella, Cheddar",
             price: "280 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
@@ -340,6 +332,7 @@ export const data = [
             description:
               "Sos Domatesh, Kaçkavall, Qepë, Domate, Speca, Këpurdha",
             price: "250 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
@@ -347,36 +340,41 @@ export const data = [
             description:
               "Pizza e mbyllur, Sos Domatesh, Mish i Thatë, Suxhuk, Susam",
             price: "220 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
             name: "Pizza Solenka",
             description: "Kaçkavall, Susam",
             price: "200 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
             name: "Mini Pizza",
             description: "Sipas dëshirës",
             price: "240 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
             name: "Pizza Grace",
-            description: "==",
             price: "350 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
             name: "Club Sandwich",
             description: "Kaçkavall, Mish i Thatë, Suxhuk",
             price: "150 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
             name: "Grace Sandwich",
             description: "Buk Shtëpije, Kaçkavall, Mish i Thatë, Suxhuk",
             price: "200 Den",
+            reagent: "1,2,3",
           },
           {
             id: 24,
@@ -384,317 +382,324 @@ export const data = [
             description:
               "Sos Domatesh, Kaçkavall, Rucola, Cherry Domate, Parmezan",
             price: "300 Den",
+            reagent: "1,2,3",
           },
         ],
+        reagents: {
+          1: "celery",
+          2: "wheat",
+          3: "crustaceans",
+          4: "eggs",
+          5: "fish",
+          6: "lupin",
+          7: "milk",
+          8: "oysters",
+          9: "mustard",
+          10: "almonds",
+          11: "hazelnuts",
+          12: "walnuts",
+          13: "brazil nuts",
+          14: "cashews",
+          15: "pecans",
+          16: "pistachios",
+          17: "peanuts",
+          18: "sesame seeds",
+          19: "soybeans",
+          20: "sulphur dioxide and sulphites",
+        },
       },
       {
         name: "Desserts",
         slug: "desserts",
-        image: "/images/desert-01.png",
+        image: "/images/cocktails/c-Pancakes.jpg",
         products: [
           {
             id: 25,
             name: "Nachos with Sauce",
-            description: "==",
             price: "170 Den",
+            reagent: "1,2,3",
           },
           {
             id: 25,
             name: "Crepe 1/2 (Pallachinka)",
-            description: "==",
             price: "140 Den",
+            reagent: "1,2,3",
           },
           {
             id: 25,
             name: "Crepe (Pallachinka)",
-            description: "==",
             price: "200 Den",
+            reagent: "1,2,3",
           },
           {
             id: 25,
             name: "Chocolate Lava (Ftohtë - Ngrohtë)",
-            description: "==",
             price: "200 Den",
+            reagent: "1,2,3",
           },
           {
             id: 25,
             name: "Waffle with Fruits",
-            description: "==",
             price: "220 Den",
+            reagent: "1,2,3",
           },
           {
             id: 25,
             name: "Waffle with Nutella",
-            description: "==",
             price: "200 Den",
+            reagent: "1,2,3",
           },
           {
             id: 25,
             name: "Fruit Salad",
-            description: "==",
             price: "200 Den",
+            reagent: "1,2,3",
           },
         ],
+        reagents: {
+          1: "celery",
+          2: "wheat",
+          3: "crustaceans",
+          4: "eggs",
+          5: "fish",
+          6: "lupin",
+          7: "milk",
+          8: "oysters",
+          9: "mustard",
+          10: "almonds",
+          11: "hazelnuts",
+          12: "walnuts",
+          13: "brazil nuts",
+          14: "cashews",
+          15: "pecans",
+          16: "pistachios",
+          17: "peanuts",
+          18: "sesame seeds",
+          19: "soybeans",
+          20: "sulphur dioxide and sulphites",
+        },
       },
     ],
   },
   {
     category: "drinks",
-    image: "/images/desert-01.png",
+    image: "/images/softdrinks.jpg",
     subcategories: [
       {
         name: "Cold Drinks",
         slug: "cold-drinks",
-        image: "/images/drink-01.png",
+        image: "/images/cold drinks.jpg",
         products: [
           {
             id: 5,
             name: "Coca Cola",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Coca Cola Zero",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Fanta Orange",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Fanta Shokata",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Schweppes",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Schweppes Tonic",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Schweppes Tangerine",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Sprite",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Kiwi Juice",
             price: "80 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Pineapple Juice",
             price: "80 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Still Water",
             price: "70 Den",
-            description: "==",
           },
           {
             id: 5,
             name: "Mineral Water",
             price: "70 Den",
-            description: "==",
           },
         ],
       },
       {
         name: "Bravo Drinks",
         slug: "bravo-drinks",
-        image: "/images/drink-01.png",
+        image: "/images/bravologo.png",
         products: [
           {
             id: 6,
             name: "Bravo Strawberry",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Orange",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Apple",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Peach",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Blueberry",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Multivitamin",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Cherry",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Strawberry Banana",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Ice Tea Lemon",
             price: "90 Den",
-            description: "==",
           },
           {
             id: 6,
             name: "Bravo Ice Tea Peach",
             price: "90 Den",
-            description: "==",
           },
         ],
       },
       {
         name: "Red Bull",
         slug: "redbull-drinks",
-        image: "/images/drink-01.png",
+        image: "/images/redbullice.jpeg",
         products: [
           {
             id: 7,
             name: "Red Bull",
             price: "200 Den",
-            description: "==",
           },
           {
             id: 7,
             name: "Red Bull Sugarfree",
             price: "200 Den",
-            description: "==",
           },
           {
             id: 7,
             name: "Red Bull The Yellow Edition",
             price: "200 Den",
-            description: "==",
           },
           {
             id: 7,
             name: "Red Bull The Red Edition",
             price: "200 Den",
-            description: "==",
           },
         ],
       },
       {
         name: "Hot Drinks",
         slug: "hot-drinks",
-        image: "/images/drink-01.png",
+        image: "/images/caffee.jpg",
         products: [
           {
             id: 8,
             name: "Espresso",
             price: "50 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Macchiato",
             price: "50 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Americano",
             price: "50 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Cappuccino",
             price: "50 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Large Macchiato",
             price: "60 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Large Cappuccino",
             price: "60 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Latte Macchiato",
             price: "80 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Nescafe",
             price: "80 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Iced Coffee",
             price: "70 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Hot Chocolate",
             price: "150 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Bambi",
             price: "200 Den",
-            description: "==",
           },
           {
             id: 8,
             name: "Tea",
             price: "60 Den",
-            description: "==",
           },
         ],
       },

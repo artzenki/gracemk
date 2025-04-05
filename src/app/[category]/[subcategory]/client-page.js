@@ -4,25 +4,23 @@ export default function SubcategoryPage({ data }) {
   return (
     <CategoryLayout title={data.name} image={data.image}>
       <div className="container py-4 md:py-16">
-        <div className="max-w-[500px] mx-auto">
+        <div className="max-w-[600px] mx-auto">
           <ul className="grid grid-cols-1 gap-4">
             {data.products?.map((product, index) => (
-              <li key={index} className="bg-black p-2 space-y-4">
+              <li key={index} className="bg-black p-2 space-y-2">
                 <div className="flex items-center justify-between">
-                  <h5 className="font-semibold text-lg tracking-widest text-orange-200">
+                  <h5 className="font-semibold text-lg text-orange-200">
                     {product.name}
                   </h5>
-                  <p className="text-orange-200 text-sm">{product.reagent}</p>
+                  <p className="text-white text-sm">{product.reagent}</p>
                 </div>
                 {product.description && (
-                  <p className="text-sm uppercase tracking-widest">
-                    {product.description}
-                  </p>
+                  <p className="text-sm">{product.description}</p>
                 )}
                 <div className="flex items-center justify-between">
-                  <p className="text-xs tracking-widest">1X</p>
+                  <p className="text-white">1X</p>
                   <div className="border-b border-white w-full mx-4 h-4"></div>
-                  <p className="whitespace-nowrap text-orange-200 tracking-widest">
+                  <p className="whitespace-nowrap text-orange-200 font-bold uppercase">
                     {product.price}
                   </p>
                 </div>
