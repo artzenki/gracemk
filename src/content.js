@@ -43,8 +43,7 @@ export const data = [
         slug: "fruit-shisha",
         name: "Fruit Shisha",
         image: "/images/shisha4.jpg",
-        products: [
-          {
+        products: [10          {
             id: 29,
             name: "Fruit Shisha",
             price: "3800 Den",
@@ -560,52 +559,52 @@ export const data = [
           {
             id: 6,
             name: "Bravo Strawberry",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Orange",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Apple",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Peach",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Blueberry",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Multivitamin",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Cherry",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Strawberry Banana",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Ice Tea Lemon",
-            price: "90 Den",
+            price: "100 Den",
           },
           {
             id: 6,
             name: "Bravo Ice Tea Peach",
-            price: "90 Den",
+            price: "100 Den",
           },
         ],
       },
