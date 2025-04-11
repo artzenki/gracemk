@@ -43,7 +43,8 @@ export const data = [
         slug: "fruit-shisha",
         name: "Fruit Shisha",
         image: "/images/shisha4.jpg",
-        products: [10          {
+        products: [
+          {
             id: 29,
             name: "Fruit Shisha",
             price: "3800 Den",
