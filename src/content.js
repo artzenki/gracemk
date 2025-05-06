@@ -214,19 +214,6 @@ export const data = [
           },
         ],
       },
-      {
-        name: "Grace Cocktail",
-        slug: "grace-c",
-        image: "/images/cocktails/c-Grace Cocktail.jpg",
-        products: [
-          {
-            id: 19,
-            name: "Grace Cocktail",
-            price: "200 Den",
-            description: " ",
-          },
-        ],
-      },
     ],
   },
   {
