@@ -1,6 +1,6 @@
 import React from "react";
 import CategoryLayout from "../category-layout";
-import { data } from "../../content";
+import { data } from "../../content.js";
 import Link from "next/link";
 import Image from "next/image";
 

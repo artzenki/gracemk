@@ -87,17 +87,18 @@ export const data = [
         image: "/images/cocktails/c-Mojito.jpg",
         products: [
           {
-            id: 10,
+            id: 12,
             name: "Mojito",
+            description:
+              "Limetë (50gr), Sirup Mojito Mint (25ml), Sprite (200ml), Akull (70gr)",
             price: "200 Den",
-            description: "Lime, Mojito Mint, Sprite, Tonic",
           },
           {
-            id: 10,
+            id: 13,
             name: "Mojito Strawberry",
-            price: "200 Den",
             description:
-              "Lime, Mojito Mint, Strawberry, Grenadine, Sprite, Tonic",
+              "Limetë (50gr), Sirup Mojito Mint (25ml), Dredhëz (25ml), Kalina (25ml), Sprite (200ml), Akull (70gr)",
+            price: "200 Den",
           },
         ],
       },
@@ -107,16 +108,11 @@ export const data = [
         image: "/images/cocktails/c-Strawberry.jpg",
         products: [
           {
-            id: 11,
+            id: 14,
             name: "Strawberry",
+            description:
+              "Sirup nga Dredhëza (25ml), Sirup nga Kalina (25ml), Ananas (100ml), Portokall (100ml), Akull (70gr)",
             price: "200 Den",
-            description: "Strawberry, Grenadine, Pineapple Juice, Orange Juice",
-          },
-          {
-            id: 11,
-            name: "Pure Strawberry",
-            price: "200 Den",
-            description: " ",
           },
         ],
       },
@@ -126,11 +122,11 @@ export const data = [
         image: "/images/cocktails/c-Cherry.jpg",
         products: [
           {
-            id: 12,
+            id: 15,
             name: "Cherry",
-            price: "200 Den",
             description:
-              "Cherry, Lemon Rantcho, Grenadine, Cherry Juice, Apple Juice",
+              "Pire nga Vishnja (25ml), Sirup Limun Rantcho (25ml), Kalina (25ml), Vishnje (100ml), Mollë (100ml), Portokall (100ml), Portokall (50ml), Akull (70gr)",
+            price: "200 Den",
           },
         ],
       },
@@ -140,10 +136,11 @@ export const data = [
         image: "/images/cocktails/c-Pina Colada.jpg",
         products: [
           {
-            id: 13,
+            id: 16,
             name: "Pina Colada",
+            description:
+              "Sirup nga Kokosi (25ml), Ananas (50ml), Portokall (50ml), Qumësht (150ml), Akull (70gr)",
             price: "200 Den",
-            description: "Coconut, Pineapple Juice, Milk, Whipped Cream",
           },
         ],
       },
@@ -153,10 +150,11 @@ export const data = [
         image: "/images/cocktails/c-Sex on the beach.jpg",
         products: [
           {
-            id: 14,
+            id: 17,
             name: "Sex on the Beach",
+            description:
+              "Sirup nga Vanila (25ml), Sirup nga Kalina (25ml), Portokall (150ml), Pjeshkë (100ml), Akull (70gr)",
             price: "200 Den",
-            description: "Vanilla ,Grenadine, Orange Juice, Peach Juice",
           },
         ],
       },
@@ -166,10 +164,11 @@ export const data = [
         image: "/images/cocktails/c-Blue Lagoon.jpg",
         products: [
           {
-            id: 15,
+            id: 18,
             name: "Blue Lagoon",
+            description:
+              "Sirup nga Blue Curacao (25ml), Sirup Limun Rantcho (25ml), Sprite (200ml), Akull (70gr)",
             price: "200 Den",
-            description: "Blue Curacao, Lemon Rantcho, Sprite",
           },
         ],
       },
@@ -179,11 +178,11 @@ export const data = [
         image: "/images/cocktails/c-placeholder.jpg",
         products: [
           {
-            id: 16,
+            id: 19,
             name: "Passion Fruit",
-            price: "200 Den",
             description:
-              "Passion Fruit, Blue Curacao, Orange Juice, Peach Juice, Pineapple Juice",
+              "Sirup nga Passion Fruit (25ml), Blue Curacao (25ml), Ananas (100ml), Portokall (100ml), Pjeshkë (50ml), Akull (70gr)",
+            price: "200 Den",
           },
         ],
       },
@@ -193,11 +192,11 @@ export const data = [
         image: "/images/cocktails/c-Green Cat.jpg",
         products: [
           {
-            id: 17,
+            id: 20,
             name: "Green Cat",
-            price: "200 Den",
             description:
-              "Blue Curacao, Lemon Rantcho, Apple Juice, Kiwi Juice, Orange Juice",
+              "Sirup Blue Curacao (25ml), Sirup Limon Rantcho (25ml), Mollë (100ml), Kivi (50ml), Portokall (100ml), Akull (70gr)",
+            price: "200 Den",
           },
         ],
       },
@@ -207,10 +206,11 @@ export const data = [
         image: "/images/cocktails/c-placeholder.jpg",
         products: [
           {
-            id: 18,
+            id: 21,
             name: "Mango",
+            description:
+              "Sirup nga Mango & Portokalli (25ml), Ananas (200ml), Portokall (100ml), Akull (70gr)",
             price: "200 Den",
-            description: "Mango, Orange Juice, Pineapple Juice",
           },
         ],
       },
@@ -242,7 +242,8 @@ export const data = [
             id: 20,
             name: "Tropical Pleasure",
             price: "270 Den",
-            description: "Mango, Pineapple Juice",
+            description:
+              "Redbull pa Sheqer (250ml), Ananas (50ml), Akull (70gr)",
           },
         ],
       },
@@ -255,7 +256,8 @@ export const data = [
             id: 21,
             name: "Colada",
             price: "270 Den",
-            description: "Blue Curacao, Lemon Rantcho, Orange Juice",
+            description:
+              "Redbull (250ml), Blue Curacao (25ml), Sirup Limun Rantcho (25ml), Portokall (50ml), Akull (70gr)",
           },
         ],
       },
@@ -268,7 +270,8 @@ export const data = [
             id: 22,
             name: "Bull Goes Down",
             price: "270 Den",
-            description: "Blue Curacao, Vanilla, Orange Juice",
+            description:
+              "Redbull (250ml), Blue Curacao (25ml), Sirup Limun Rantcho (25ml), Portokall (50ml), Akull (70gr)",
           },
         ],
       },
@@ -281,7 +284,8 @@ export const data = [
             id: 23,
             name: "Watermelon Pleasure",
             price: "270 Den",
-            description: "Watermelon, Cherry",
+            description:
+              "Redbull nga Dredhëza (250ml), Sirup nga Dredhëza (25ml), Vishnje (50ml), Akull (70gr)",
           },
         ],
       },
@@ -297,115 +301,92 @@ export const data = [
         image: "/images/cocktails/c-Pizza.jpg",
         products: [
           {
-            id: 24,
+            id: 7,
             name: "Pizza Capricciosa",
             description:
-              "Sos Domatesh, Kaçkavall, Mish i Thatë, Suxhuk, Këpurdha",
-            price: "300 Den",
-            reagent: "1,2,3",
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Mish i thatë (50gr), Suxhuk (50gr), Kërpudha (40gr) ",
+            price: "200 Den",
           },
           {
-            id: 24,
+            id: 7,
             name: "Pizza Tuna",
-            description: "Sos Domatesh, Kaçkavall, Tuna",
-            price: "300 Den",
-            reagent: "1,2,3",
+            description:
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Tuna (60gr)",
+            price: "200 Den",
           },
           {
-            id: 24,
+            id: 7,
             name: "Pizza Margarita",
-            description: "Sos Domatesh, Kaçkavall",
-            price: "270 Den",
-            reagent: "1,2,3",
+            description:
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr)",
+            price: "200 Den",
           },
           {
-            id: 24,
+            id: 7,
             name: "Pizza Quattro Formaggi",
             description:
-              "Sos Domatesh, Kaçkavall, Gorgonzola, Mozzarella, Cheddar",
-            price: "280 Den",
-            reagent: "1,2,3",
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Gorgonzola (20gr), Cheddar (20gr)",
+            price: "200 Den",
           },
           {
-            id: 24,
+            id: 7,
             name: "Pizza Vegetariana",
             description:
-              "Sos Domatesh, Kaçkavall, Qepë, Domate, Speca, Këpurdha",
-            price: "250 Den",
-            reagent: "1,2,3",
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Qepë (15gr), Domate (50gr), Speca (50gr)",
+            price: "200 Den",
           },
           {
-            id: 24,
+            id: 7,
             name: "Pizza Calzone",
             description:
-              "Pizza e mbyllur, Sos Domatesh, Mish i Thatë, Suxhuk, Susam",
-            price: "220 Den",
-            reagent: "1,2,3",
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Mish i thatë (50gr), Suxhuk (50gr), Susam (5gr) ",
+            price: "200 Den",
           },
           {
-            id: 24,
+            id: 7,
             name: "Pizza Solenka",
-            description: "Kaçkavall, Susam",
+            description:
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Susam (5gr)",
             price: "200 Den",
-            reagent: "1,2,3",
           },
           {
-            id: 24,
-            name: "Mini Pizza",
-            description: "Sipas dëshirës",
-            price: "240 Den",
-            reagent: "1,2,3",
-          },
-          {
-            id: 24,
-            name: "Pizza Grace",
-            price: "350 Den",
-            reagent: "1,2,3",
-          },
-          {
-            id: 24,
-            name: "Club Sandwich",
-            description: "Kaçkavall, Mish i Thatë, Suxhuk",
-            price: "150 Den",
-            reagent: "1,2,3",
-          },
-          {
-            id: 24,
-            name: "Grace Sandwich",
-            description: "Buk Shtëpije, Kaçkavall, Mish i Thatë, Suxhuk",
-            price: "200 Den",
-            reagent: "1,2,3",
-          },
-          {
-            id: 24,
+            id: 7,
             name: "Pizza Rucola",
             description:
-              "Sos Domatesh, Kaçkavall, Rucola, Cherry Domate, Parmezan",
-            price: "300 Den",
-            reagent: "1,2,3",
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Rucola (10gr), Domate Cherry (50gr), Parmesan (5gr)",
+            price: "200 Den",
+          },
+          {
+            id: 7,
+            name: "Pizza Grace",
+            description:
+              "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Mish i thatë (50gr), Suxhuk (50gr), Kërpudha (40gr), Një vezë ",
+            price: "200 Den",
+          },
+          {
+            id: 7,
+            name: "Mini Pizza",
+            description:
+              "Brum* (170gr), Sos Domatesh (15ml), Mozzarella (15gr), Kaçkavall (35gr), Mish i thatë (35gr), Suxhuk (35gr), Kërpudha (30gr) ",
+            price: "200 Den",
+          },
+          {
+            id: 7,
+            name: "Club Sandwich",
+            description:
+              "Bukë (100gr), Kaçkavall (30gr), Mish i thatë (30gr,), Suxhuk (35gr)",
+            price: "200 Den",
+          },
+          {
+            id: 7,
+            name: "Grace Sandwich",
+            description:
+              "Brum* (220gr), Kaçkavall (40gr), Mish i thatë (40gr), Suxhuk (40gr)",
+            price: "200 Den",
           },
         ],
         reagents: {
-          1: "celery",
-          2: "wheat",
-          3: "crustaceans",
-          4: "eggs",
-          5: "fish",
-          6: "lupin",
-          7: "milk",
-          8: "oysters",
-          9: "mustard",
-          10: "almonds",
-          11: "hazelnuts",
-          12: "walnuts",
-          13: "brazil nuts",
-          14: "cashews",
-          15: "pecans",
-          16: "pistachios",
-          17: "peanuts",
-          18: "sesame seeds",
-          19: "soybeans",
-          20: "sulphur dioxide and sulphites",
+          "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa",
         },
       },
       {
@@ -414,75 +395,65 @@ export const data = [
         image: "/images/cocktails/c-Pancakes.jpg",
         products: [
           {
-            id: 25,
-            name: "Nachos with Sauce",
-            price: "170 Den",
-            reagent: "1,2,3",
-          },
-          {
-            id: 25,
-            name: "Crepe 1/2 (Pallachinka)",
-            price: "140 Den",
-            reagent: "1,2,3",
-          },
-          {
-            id: 25,
-            name: "Crepe (Pallachinka)",
+            id: 8,
+            name: "Pallaçinka",
+            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
             price: "200 Den",
-            reagent: "1,2,3",
           },
           {
-            id: 25,
-            name: "Chocolate Lava (Ftohtë - Ngrohtë)",
+            id: 8,
+            name: "Verë Dimër",
+            description: "Brum* (70gr), Çokollada (30gr), Një vezë",
             price: "200 Den",
-            reagent: "1,2,3",
           },
           {
-            id: 25,
-            name: "Waffle with Fruits",
-            price: "220 Den",
-            reagent: "1,2,3",
-          },
-          {
-            id: 25,
-            name: "Waffle with Nutella",
+            id: 8,
+            name: "Waffles",
+            description: "Brum* (120gr), Çokollada (30gr)",
             price: "200 Den",
-            reagent: "1,2,3",
           },
           {
-            id: 25,
-            name: "Fruit Salad",
+            id: 8,
+            name: "Sallatë Frutash",
+            description:
+              "Banane (50gr), Kivi (50gr), Portokall (50gr), Malina (20gr), Mandarina (50gr), Pjeshkë (50gr), Nektarina (50gr)",
             price: "200 Den",
-            reagent: "1,2,3",
+          },
+          {
+            id: 8,
+            name: "Nachos me sos",
+            description: "Çipsa (40gr), Sos Domatesh (30gr), Kaçkavall (30gr)",
+            price: "200 Den",
           },
         ],
-        reagents: {
-          1: "celery",
-          2: "wheat",
-          3: "crustaceans",
-          4: "eggs",
-          5: "fish",
-          6: "lupin",
-          7: "milk",
-          8: "oysters",
-          9: "mustard",
-          10: "almonds",
-          11: "hazelnuts",
-          12: "walnuts",
-          13: "brazil nuts",
-          14: "cashews",
-          15: "pecans",
-          16: "pistachios",
-          17: "peanuts",
-          18: "sesame seeds",
-          19: "soybeans",
-          20: "sulphur dioxide and sulphites",
-        },
+        reagents: { "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa" },
+        // reagents: {
+        //   1: "celery",
+        //   2: "wheat",
+        //   3: "crustaceans",
+        //   4: "eggs",
+        //   5: "fish",
+        //   6: "lupin",
+        //   7: "milk",
+        //   8: "oysters",
+        //   9: "mustard",
+        //   10: "almonds",
+        //   11: "hazelnuts",
+        //   12: "walnuts",
+        //   13: "brazil nuts",
+        //   14: "cashews",
+        //   15: "pecans",
+        //   16: "pistachios",
+        //   17: "peanuts",
+        //   18: "sesame seeds",
+        //   19: "soybeans",
+        //   20: "sulphur dioxide and sulphites",
+        // },
       },
     ],
   },
   {
-    category: "drinks",
+    category: "Carbonated Drinks",
     image: "/images/softdrinks.jpg",
     subcategories: [
       {
@@ -495,63 +466,21 @@ export const data = [
             name: "Coca Cola",
             price: "90 Den",
           },
-          {
-            id: 5,
-            name: "Coca Cola Zero",
-            price: "90 Den",
-          },
-          {
-            id: 5,
-            name: "Fanta Orange",
-            price: "90 Den",
-          },
-          {
-            id: 5,
-            name: "Fanta Shokata",
-            price: "90 Den",
-          },
-          {
-            id: 5,
-            name: "Schweppes",
-            price: "90 Den",
-          },
-          {
-            id: 5,
-            name: "Schweppes Tonic",
-            price: "90 Den",
-          },
-          {
-            id: 5,
-            name: "Schweppes Tangerine",
-            price: "90 Den",
-          },
-          {
-            id: 5,
-            name: "Sprite",
-            price: "90 Den",
-          },
+        ],
+      },
+
+      {
+        category: "Carbonated Drinks",
+        image: "/images/softdrinks.jpg",
+        subcategories: [
           {
             id: 5,
             name: "Kiwi Juice",
             price: "80 Den",
           },
-          {
-            id: 5,
-            name: "Pineapple Juice",
-            price: "80 Den",
-          },
-          {
-            id: 5,
-            name: "Still Water",
-            price: "70 Den",
-          },
-          {
-            id: 5,
-            name: "Mineral Water",
-            price: "70 Den",
-          },
         ],
       },
+
       {
         name: "Bravo Drinks",
         slug: "bravo-drinks",
@@ -560,51 +489,6 @@ export const data = [
           {
             id: 6,
             name: "Bravo Strawberry",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Orange",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Apple",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Peach",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Blueberry",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Multivitamin",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Cherry",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Strawberry Banana",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Ice Tea Lemon",
-            price: "100 Den",
-          },
-          {
-            id: 6,
-            name: "Bravo Ice Tea Peach",
             price: "100 Den",
           },
         ],
@@ -619,21 +503,6 @@ export const data = [
             name: "Red Bull",
             price: "200 Den",
           },
-          {
-            id: 7,
-            name: "Red Bull Sugarfree",
-            price: "200 Den",
-          },
-          {
-            id: 7,
-            name: "Red Bull The Yellow Edition",
-            price: "200 Den",
-          },
-          {
-            id: 7,
-            name: "Red Bull The Red Edition",
-            price: "200 Den",
-          },
         ],
       },
       {
@@ -646,60 +515,151 @@ export const data = [
             name: "Espresso",
             price: "50 Den",
           },
+        ],
+      },
+    ],
+  },
+  {
+    category: "non-carbonated-drinks",
+    image: "/images/cocktails/c-placeholder.jpg",
+    subcategories: [
+      {
+        name: "Coffee",
+        slug: "cold-drinks",
+        image: "/images/cold drinks.jpg",
+        products: [
           {
-            id: 8,
-            name: "Macchiato",
-            price: "50 Den",
-          },
-          {
-            id: 8,
-            name: "Americano",
-            price: "50 Den",
-          },
-          {
-            id: 8,
-            name: "Cappuccino",
-            price: "50 Den",
-          },
-          {
-            id: 8,
-            name: "Large Macchiato",
-            price: "60 Den",
-          },
-          {
-            id: 8,
-            name: "Large Cappuccino",
-            price: "60 Den",
-          },
-          {
-            id: 8,
-            name: "Latte Macchiato",
-            price: "80 Den",
-          },
-          {
-            id: 8,
-            name: "Nescafe",
-            price: "80 Den",
-          },
-          {
-            id: 8,
-            name: "Iced Coffee",
-            price: "70 Den",
-          },
-          {
-            id: 8,
-            name: "Hot Chocolate",
-            price: "150 Den",
-          },
-          {
-            id: 8,
-            name: "Bambi",
+            id: 9,
+            name: "Espresso e Vogël",
+            description: "Kafe (7gr)",
             price: "200 Den",
           },
           {
-            id: 8,
-            name: "Tea",
-            price: "60 Den",
+            id: 9,
+            name: "Espresso e Madhe",
+            description: "Kafe (12gr)",
+            price: "200 Den",
+          },
+          {
+            id: 9,
+            name: "Makiato e Vogël",
+            description: "Kafe (7gr), Qumësht (10ml)",
+            price: "200 Den",
+          },
+          {
+            id: 9,
+            name: "Makiato e Madhe",
+            description: "Kafe (12gr), Qumësht (20ml)",
+            price: "200 Den",
+          },
+          {
+            id: 9,
+            name: "Prevërteno me Qumësht",
+            description: "Kafe (7gr), Qumësht (10ml)",
+            price: "200 Den",
+          },
+          {
+            id: 9,
+            name: "Nescaffe me Qumësht",
+            description: "Kafe (10gr), Qumësht (20ml)",
+            price: "200 Den",
+          },
+          {
+            id: 9,
+            name: "Cappuchino e Madhe me Qumësht",
+            description: "Kafe (12gr), Qumësht (20ml) me Shllag",
+            price: "200 Den",
+          },
+          {
+            id: 9,
+            name: "Çokolladë e Nxehtë",
+            description: "Çokolladë (50gr), Qumësht (50ml)",
+            price: "200 Den",
+          },
+          {
+            id: 9,
+            name: "Çokolladë e Nxehtë me Plazma",
+            description: "Çokolladë (50gr), Qumësht (50ml), Plazma (10gr)",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Lëngje",
+        slug: "lengje",
+        image: "/images/cocktails/c-placeholder.jpg",
+        products: [
+          {
+            id: 10,
+            name: "Portokall",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Mollë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Boronicë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Banane & Dredhëz",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Ice Tea Limun",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Ice Tea Pjeshkë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Multivitamin",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Dredhëz",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Vishnje",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Pjeshkë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Ananas",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Kivi",
+            description: "250ml",
+            price: "200 Den",
           },
         ],
       },
