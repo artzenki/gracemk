@@ -20,8 +20,8 @@ export default function Home() {
           alt={"Background image"}
           className="w-96 h-24 mx-auto"
         />
-        <div className="max-w-[600px] mx-auto">
-          <div className="grid grid-cols-1 gap-8 py-8">
+        <div className="max-w-[900px] mx-auto">
+          <div className="grid grid-cols-1 gap-4 py-4">
             {data.map((item) => {
               return (
                 <Link
@@ -34,9 +34,9 @@ export default function Home() {
                     alt={item.category}
                     width={200}
                     height={200}
-                    className="size-44 object-cover"
+                    className="size-56 object-cover"
                   />
-                  <h2 className="text-left mt-2 text-base font-extrabold text-orange-200">
+                  <h2 className="text-left mt-2 text-lg font-extrabold text-orange-200">
                     {formatCategory(item.category)}
                   </h2>
                 </Link>

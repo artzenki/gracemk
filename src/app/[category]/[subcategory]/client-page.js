@@ -4,7 +4,7 @@ export default function SubcategoryPage({ data }) {
   return (
     <CategoryLayout title={data.name} image={data.image}>
       <div className="container py-4 md:py-16">
-        <div className="max-w-[600px] mx-auto">
+        <div className="max-w-[900px] mx-auto">
           <ul className="grid grid-cols-1 gap-4">
             {data.products?.map((product, index) => (
               <li key={index} className="bg-black p-2 space-y-2">

@@ -15,7 +15,7 @@ export default async function CategoryPage({ params }) {
   return (
     <CategoryLayout title={categoryData.category} image={categoryData.image}>
       <div className="container">
-        <ul className="grid grid-cols-3 md:grid-cols-3 gap-3 py-8">
+        <ul className="grid grid-cols-3 md:grid-cols-3 gap-2 py-4">
           {categoryData.subcategories.map((subcategory) => (
             <Link
               href={`/${category}/${subcategory.slug}`}

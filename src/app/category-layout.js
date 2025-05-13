@@ -35,7 +35,7 @@ export default function CategoryLayout({ children, title, image }) {
           fill={true}
           className="absolute inset-0 -z-10 w-full h-full object-cover"
         />
-        <div className="max-w-[600px] mx-auto py-8">{children}</div>
+        <div className="max-w-[900px] mx-auto py-4">{children}</div>
       </div>
     </div>
   );

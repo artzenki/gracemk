@@ -175,7 +175,7 @@ export const data = [
       {
         name: "Passion Fruit",
         slug: "passion-fruit",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/cocktails/c-cocktail-2-squared.jpg",
         products: [
           {
             id: 19,
@@ -203,7 +203,7 @@ export const data = [
       {
         name: "Mango",
         slug: "mango",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/cocktails/c-cocktail-1-squared.jpg",
         products: [
           {
             id: 21,
@@ -214,12 +214,6 @@ export const data = [
           },
         ],
       },
-    ],
-  },
-  {
-    category: "redbull-cocktails",
-    image: "/images/cocktails/c-Red Bull Cocktail Red.jpg",
-    subcategories: [
       {
         name: "Tropical Pleasure",
         slug: "rb-tropical-pleasure",
@@ -278,6 +272,68 @@ export const data = [
       },
     ],
   },
+  // {
+  //   category: "redbull-cocktails",
+  //   image: "/images/cocktails/c-Red Bull Cocktail Red.jpg",
+  //   subcategories: [
+  //     {
+  //       name: "Tropical Pleasure",
+  //       slug: "rb-tropical-pleasure",
+  //       image: "/images/cocktails/c-Red Bull Cocktail Yellow.jpg",
+  //       products: [
+  //         {
+  //           id: 20,
+  //           name: "Tropical Pleasure",
+  //           price: "270 Den",
+  //           description:
+  //             "Redbull pa Sheqer (250ml), Ananas (50ml), Akull (70gr)",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       name: "Colada",
+  //       slug: "rb-colada",
+  //       image: "/images/cocktails/c-Red Bull Cocktail Sugarfree.jpg",
+  //       products: [
+  //         {
+  //           id: 21,
+  //           name: "Colada",
+  //           price: "270 Den",
+  //           description:
+  //             "Redbull (250ml), Blue Curacao (25ml), Sirup Limun Rantcho (25ml), Portokall (50ml), Akull (70gr)",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       name: "Bull Goes Down",
+  //       slug: "rb-bull-goes-down",
+  //       image: "/images/cocktails/c-Red Bull Cocktail Normal.jpg",
+  //       products: [
+  //         {
+  //           id: 22,
+  //           name: "Bull Goes Down",
+  //           price: "270 Den",
+  //           description:
+  //             "Redbull (250ml), Blue Curacao (25ml), Sirup Limun Rantcho (25ml), Portokall (50ml), Akull (70gr)",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       name: "Watermelon Pleasure",
+  //       slug: "rb-watermelon-pleasure",
+  //       image: "/images/cocktails/c-Red Bull Cocktail Red.jpg",
+  //       products: [
+  //         {
+  //           id: 23,
+  //           name: "Watermelon Pleasure",
+  //           price: "270 Den",
+  //           description:
+  //             "Redbull nga Dredhëza (250ml), Sirup nga Dredhëza (25ml), Vishnje (50ml), Akull (70gr)",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     category: "food",
     image: "/images/cocktails/c-Pizza.jpg",
@@ -440,7 +496,7 @@ export const data = [
     ],
   },
   {
-    category: "Carbonated Drinks",
+    category: "carbonated-drinks",
     image: "/images/softdrinks.jpg",
     subcategories: [
       {
@@ -452,55 +508,74 @@ export const data = [
             id: 5,
             name: "Coca Cola",
             price: "90 Den",
+            description: "250ml",
           },
-        ],
-      },
-
-      {
-        category: "Carbonated Drinks",
-        image: "/images/softdrinks.jpg",
-        subcategories: [
           {
             id: 5,
-            name: "Kiwi Juice",
-            price: "80 Den",
+            name: "Coca Cola Zero",
+            price: "90 Den",
+            description: "250ml",
+          },
+          {
+            id: 5,
+            name: "Fanta Orange",
+            price: "90 Den",
+            description: "250ml",
+          },
+          {
+            id: 5,
+            name: "Fanta Shokata",
+            price: "90 Den",
+            description: "250ml",
+          },
+          {
+            id: 5,
+            name: "Schweppes Tonic",
+            price: "90 Den",
+            description: "250ml",
+          },
+          {
+            id: 5,
+            name: "Sprite",
+            price: "90 Den",
+            description: "250ml",
+          },
+          {
+            id: 5,
+            name: "Schweppes Tangerine",
+            price: "90 Den",
+            description: "250ml",
           },
         ],
       },
-
       {
-        name: "Bravo Drinks",
-        slug: "bravo-drinks",
-        image: "/images/bravologo.png",
+        name: "Energy Drinks",
+        slug: "energy-drinks",
+        image: "/images/cold drinks.jpg",
         products: [
           {
             id: 6,
-            name: "Bravo Strawberry",
-            price: "100 Den",
-          },
-        ],
-      },
-      {
-        name: "Red Bull",
-        slug: "redbull-drinks",
-        image: "/images/redbullice.jpeg",
-        products: [
-          {
-            id: 7,
-            name: "Red Bull",
+            name: "Redbull Classic",
             price: "200 Den",
+            description: "250ml",
           },
-        ],
-      },
-      {
-        name: "Hot Drinks",
-        slug: "hot-drinks",
-        image: "/images/caffee.jpg",
-        products: [
           {
-            id: 8,
-            name: "Espresso",
-            price: "50 Den",
+            id: 6,
+            name: "Redbull Sugarfree",
+            price: "200 Den",
+            description: "250ml",
+          },
+          {
+            id: 6,
+            name: "Redbull The Red Edition",
+            price: "200 Den",
+            description: "250ml",
+          },
+          {
+            id: 6,
+            name: "Redbull The Yellow Edition",
+            price: "200 Den",
+            description: "250ml",
           },
         ],
       },
@@ -557,6 +632,56 @@ export const data = [
             description: "Kafe (12gr), Qumësht (20ml) me Shllag",
             price: "200 Den",
           },
+        ],
+      },
+      {
+        name: "Çaj",
+        slug: "hot-tea",
+        image: "/images/cocktails/c-placeholder.jpg",
+        products: [
+          {
+            id: 9,
+            name: "Çaj Kamilicë",
+            description: "250ml",
+            price: "60 Den",
+          },
+          {
+            id: 9,
+            name: "Çaj Nane",
+            description: "250ml",
+            price: "60 Den",
+          },
+          {
+            id: 9,
+            name: "Çaj Jeshil",
+            description: "250ml",
+            price: "60 Den",
+          },
+          {
+            id: 9,
+            name: "Çaj Frutash",
+            description: "250ml",
+            price: "60 Den",
+          },
+          {
+            id: 9,
+            name: "Çaj Brusnicë",
+            description: "250ml",
+            price: "60 Den",
+          },
+          {
+            id: 9,
+            name: "Çaj Vishnje",
+            description: "250ml",
+            price: "60 Den",
+          },
+        ],
+      },
+      {
+        name: "Çokollada e Nxehtë",
+        slug: "hot-chocolate",
+        image: "/images/cocktails/c-placeholder.jpg",
+        products: [
           {
             id: 9,
             name: "Çokolladë e Nxehtë",
