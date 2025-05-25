@@ -79,7 +79,7 @@ export const data = [
   },
   {
     category: "cocktails",
-    image: "/images/cocktails/c-Mojito.jpg",
+    image: "/images/new cocktail/post2.jpg",
     subcategories: [
       {
         name: "Mojito",
@@ -93,6 +93,20 @@ export const data = [
               "Limetë (50gr), Sirup Mojito Mint (25ml), Sprite (200ml), Akull (70gr)",
             price: "200 Den",
           },
+          // {
+          //   id: 13,
+          //   name: "Mojito Strawberry",
+          //   description:
+          //     "Limetë (50gr), Sirup Mojito Mint (25ml), Dredhëz (25ml), Kalina (25ml), Sprite (200ml), Akull (70gr)",
+          //   price: "200 Den",
+          // },
+        ],
+      },
+      {
+        name: "Mojito Strawberry",
+        slug: "mojito-strawberry",
+        image: "/images/cocktails/c-Mojito.jpg",
+        products: [
           {
             id: 13,
             name: "Mojito Strawberry",
@@ -203,13 +217,41 @@ export const data = [
       {
         name: "Mango",
         slug: "mango",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/new cocktail/post2.jpg",
         products: [
           {
             id: 21,
             name: "Mango",
             description:
               "Sirup nga Mango & Portokalli (25ml), Ananas (200ml), Portokall (100ml), Akull (70gr)",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Pink Colada",
+        slug: "pink-colada",
+        image: "/images/cocktails/c-placeholder.jpg",
+        products: [
+          {
+            id: 21,
+            name: "Pink Colada",
+            description:
+              "Sirup nga Kokosi (25ml), Ananas (50ml), Grenadine (25ml), Portokall (50ml), Qumësht (150ml), Akull (70gr)",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Blue Colada",
+        slug: "blue-colada",
+        image: "/images/cocktails/c-placeholder.jpg",
+        products: [
+          {
+            id: 21,
+            name: "Pink Colada",
+            description:
+              "Sirup nga Kokosi (25ml), Ananas (50ml), Blue Curacao (25ml), Portokall (50ml), Qumësht (150ml), Akull (70gr)",
             price: "200 Den",
           },
         ],
@@ -281,6 +323,47 @@ export const data = [
             price: "270 Den",
             description:
               "Redbull nga Dredhëza (250ml), Sirup nga Dredhëza (25ml), Vishnje (50ml), Akull (70gr)",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Special",
+    image: "/images/new cocktail/c-placeholder.jpg",
+    subcategories: [
+      {
+        name: "Fruit Shisha",
+        slug: "fruit-shisha",
+        image: "/images/cocktails/c-placeholder.jpg",
+        products: [
+          {
+            id: 32,
+            name: "Mojito",
+            description:
+              "Limetë (50gr), Sirup Mojito Mint (25ml), Sprite (200ml), Akull (70gr)",
+            price: "200 Den",
+          },
+          // {
+          //   id: 13,
+          //   name: "Mojito Strawberry",
+          //   description:
+          //     "Limetë (50gr), Sirup Mojito Mint (25ml), Dredhëz (25ml), Kalina (25ml), Sprite (200ml), Akull (70gr)",
+          //   price: "200 Den",
+          // },
+        ],
+      },
+      {
+        name: "Mojito Strawberry",
+        slug: "mojito-strawberry",
+        image: "/images/cocktails/c-Mojito.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Mojito Strawberry",
+            description:
+              "Limetë (50gr), Sirup Mojito Mint (25ml), Dredhëz (25ml), Kalina (25ml), Sprite (200ml), Akull (70gr)",
+            price: "200 Den",
           },
         ],
       },
