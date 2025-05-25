@@ -203,11 +203,25 @@ export const data = [
       {
         name: "Mango",
         slug: "mango",
-        image: "/images/cocktails/c-cocktail-1-squared.jpg",
+        image: "/images/cocktails/c-placeholder.jpg",
         products: [
           {
             id: 21,
             name: "Mango",
+            description:
+              "Sirup nga Mango & Portokalli (25ml), Ananas (200ml), Portokall (100ml), Akull (70gr)",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Grace Cocktail",
+        slug: "grace-cocktail",
+        image: "/images/cocktails/c-Grace Cocktail.jpg",
+        products: [
+          {
+            id: 32,
+            name: "Grace Cocktail",
             description:
               "Sirup nga Mango & Portokalli (25ml), Ananas (200ml), Portokall (100ml), Akull (70gr)",
             price: "200 Den",
@@ -583,12 +597,12 @@ export const data = [
   },
   {
     category: "non-carbonated-drinks",
-    image: "/images/cocktails/c-placeholder.jpg",
+    image: "/images/pijepagaz.jpeg",
     subcategories: [
       {
         name: "Lëngje",
         slug: "lengje",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/pijepagaz.jpeg",
         products: [
           {
             id: 10,
@@ -668,12 +682,12 @@ export const data = [
   },
   {
     category: "coffee",
-    image: "/images/cocktails/c-placeholder.jpg",
+    image: "/images/c-kafe.jpeg",
     subcategories: [
       {
         name: "Coffee",
-        slug: "cold-drinks",
-        image: "/images/cold drinks.jpg",
+        slug: "kafe",
+        image: "/images/c-kafe.jpeg",
         products: [
           {
             id: 9,
@@ -722,7 +736,7 @@ export const data = [
       {
         name: "Çaj",
         slug: "hot-tea",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/c-caj.jpeg",
         products: [
           {
             id: 9,
@@ -765,7 +779,7 @@ export const data = [
       {
         name: "Çokollada e Nxehtë",
         slug: "hot-chocolate",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/c-hotchocolate2.jpeg",
         products: [
           {
             id: 9,
