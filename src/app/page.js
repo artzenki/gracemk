@@ -34,7 +34,7 @@ export default function Home() {
                     alt={item.category}
                     width={200}
                     height={200}
-                    className="size-56 object-cover"
+                    className="size-52 object-cover"
                   />
                   <h2 className="text-left mt-2 text-lg font-extrabold text-orange-200">
                     {formatCategory(item.category)}
