@@ -79,7 +79,7 @@ export const data = [
   },
   {
     category: "cocktails",
-    image: "/images/cocktails/c-Grace Cocktail.jpg",
+    image: "/images/cocktails/c-Mojito.jpg",
     subcategories: [
       {
         name: "Mojito",
@@ -551,7 +551,7 @@ export const data = [
       {
         name: "Energy Drinks",
         slug: "energy-drinks",
-        image: "/images/cold drinks.jpg",
+        image: "/images/redbullice.jpeg",
         products: [
           {
             id: 6,
@@ -583,6 +583,91 @@ export const data = [
   },
   {
     category: "non-carbonated-drinks",
+    image: "/images/cocktails/c-placeholder.jpg",
+    subcategories: [
+      {
+        name: "Lëngje",
+        slug: "lengje",
+        image: "/images/cocktails/c-placeholder.jpg",
+        products: [
+          {
+            id: 10,
+            name: "Portokall",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Mollë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Boronicë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Banane & Dredhëz",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Ice Tea Limun",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Ice Tea Pjeshkë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Multivitamin",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Dredhëz",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Vishnje",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Pjeshkë",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Ananas",
+            description: "250ml",
+            price: "200 Den",
+          },
+          {
+            id: 10,
+            name: "Kivi",
+            description: "250ml",
+            price: "200 Den",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "coffee",
     image: "/images/cocktails/c-placeholder.jpg",
     subcategories: [
       {
@@ -692,85 +777,6 @@ export const data = [
             id: 9,
             name: "Çokolladë e Nxehtë me Plazma",
             description: "Çokolladë (50gr), Qumësht (50ml), Plazma (10gr)",
-            price: "200 Den",
-          },
-        ],
-      },
-      {
-        name: "Lëngje",
-        slug: "lengje",
-        image: "/images/cocktails/c-placeholder.jpg",
-        products: [
-          {
-            id: 10,
-            name: "Portokall",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Mollë",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Boronicë",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Banane & Dredhëz",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Ice Tea Limun",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Ice Tea Pjeshkë",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Multivitamin",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Dredhëz",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Vishnje",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Pjeshkë",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Ananas",
-            description: "250ml",
-            price: "200 Den",
-          },
-          {
-            id: 10,
-            name: "Kivi",
-            description: "250ml",
             price: "200 Den",
           },
         ],

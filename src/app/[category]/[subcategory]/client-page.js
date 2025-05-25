@@ -27,18 +27,20 @@ export default function SubcategoryPage({ data }) {
               </li>
             ))}
             {data.reagents && (
-              <div className="bg-black p-2 space-y-2">
-                {Object.keys(data.reagents).map((key) => (
-                  <div key={key} className="flex items-center space-x-1">
-                    <p className="text-xs text-orange-200 tracking-widest">
-                      *{key}
-                    </p>
-                    <div>-</div>
-                    <p className="text-xs tracking-widest uppercase">
-                      {data.reagents[key]}
-                    </p>
-                  </div>
-                ))}
+              <div className="pb-16">
+                <div className="bg-black p-2 space-y-2">
+                  {Object.keys(data.reagents).map((key) => (
+                    <div key={key} className="flex items-center space-x-1">
+                      <p className="text-xs text-orange-200 tracking-widest">
+                        *{key}
+                      </p>
+                      <div>-</div>
+                      <p className="text-xs tracking-widest uppercase">
+                        {data.reagents[key]}
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </ul>
