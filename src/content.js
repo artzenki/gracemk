@@ -16,75 +16,42 @@ export const data = [
         ],
       },
       {
-        slug: "shisha-social-smoke",
-        name: "Shisha Social Smoke",
+        slug: "fruit-shisha",
+        name: "Fruit Shisha",
         image: "/images/shisha2.jpg",
         products: [
           {
             id: 27,
-            name: "Shisha Social Smoke",
-            price: "800 Den",
-          },
-        ],
-      },
-      {
-        slug: "shisha-grace",
-        name: "Shisha Grace",
-        image: "/images/shisha3.jpg",
-        products: [
-          {
-            id: 28,
-            name: "Shisha Grace",
-            price: "600 Den",
-          },
-        ],
-      },
-      {
-        slug: "fruit-shisha",
-        name: "Fruit Shisha",
-        image: "/images/shisha4.jpg",
-        products: [
-          {
-            id: 29,
-            name: "Fruit Shisha",
+            name: "Fruit Shisha Normal",
             price: "3800 Den",
           },
           {
-            id: 29,
-            name: "Fruit Shisha Special",
+            id: 27,
+            name: "Fruit Shisha Box",
             price: "5000 Den",
           },
-        ],
-      },
-      {
-        slug: "7-days-shisha",
-        name: "Shisha 7 Days",
-        image: "/images/shisha-03.jpg",
-        products: [
           {
-            id: 30,
-            name: "7 Days",
-            price: "400 Den",
+            id: 27,
+            name: "Fruit Shisha Energy Box",
+            price: "8000 Den",
+          },
+          {
+            id: 27,
+            name: "BIG Fruit Shisha - Special",
+            price: "Ask for price",
           },
         ],
-        reagents: {
-          1: "Mint",
-          2: "Chocolate",
-          3: "Tropical",
-          4: "Mix",
-          5: "Double",
-        },
       },
     ],
   },
   {
     category: "cocktails",
-    image: "/images/new cocktail/post2.jpg",
+    image: "/images/newcocktail/mango.jpg",
     subcategories: [
       {
         name: "Mojito",
         slug: "mojito",
-        image: "/images/cocktails/c-Mojito.jpg",
+        image: "/images/newcocktail/mojito.jpg",
         products: [
           {
             id: 12,
@@ -105,7 +72,7 @@ export const data = [
       {
         name: "Mojito Strawberry",
         slug: "mojito-strawberry",
-        image: "/images/cocktails/c-Mojito.jpg",
+        image: "/images/newcocktail/mojitostrawberry.jpg",
         products: [
           {
             id: 13,
@@ -119,7 +86,7 @@ export const data = [
       {
         name: "Strawberry",
         slug: "strawberry",
-        image: "/images/cocktails/c-Strawberry.jpg",
+        image: "/images/newcocktail/strawberry.jpg",
         products: [
           {
             id: 14,
@@ -133,7 +100,7 @@ export const data = [
       {
         name: "Cherry",
         slug: "cherry",
-        image: "/images/cocktails/c-Cherry.jpg",
+        image: "/images/newcocktail/cherry.jpg",
         products: [
           {
             id: 15,
@@ -147,7 +114,7 @@ export const data = [
       {
         name: "Pina Colada",
         slug: "pina-colada",
-        image: "/images/cocktails/c-Pina Colada.jpg",
+        image: "/images/newcocktail/pinacolada.jpg",
         products: [
           {
             id: 16,
@@ -161,7 +128,7 @@ export const data = [
       {
         name: "Sex on the Beach",
         slug: "sex-on-the-beach",
-        image: "/images/cocktails/c-Sex on the beach.jpg",
+        image: "/images/newcocktail/sexonthebeach.jpg",
         products: [
           {
             id: 17,
@@ -175,7 +142,7 @@ export const data = [
       {
         name: "Blue Lagoon",
         slug: "blue-lagoon",
-        image: "/images/cocktails/c-Blue Lagoon.jpg",
+        image: "/images/newcocktail/bluelagoon.jpg",
         products: [
           {
             id: 18,
@@ -189,7 +156,7 @@ export const data = [
       {
         name: "Passion Fruit",
         slug: "passion-fruit",
-        image: "/images/cocktails/c-cocktail-2-squared.jpg",
+        image: "/images/newcocktail/passionfruit.jpg",
         products: [
           {
             id: 19,
@@ -203,7 +170,7 @@ export const data = [
       {
         name: "Green Cat",
         slug: "green-cat",
-        image: "/images/cocktails/c-Green Cat.jpg",
+        image: "/images/newcocktail/greencat.jpg",
         products: [
           {
             id: 20,
@@ -217,7 +184,7 @@ export const data = [
       {
         name: "Mango",
         slug: "mango",
-        image: "/images/new cocktail/post2.jpg",
+        image: "/images/newcocktail/mango.jpg",
         products: [
           {
             id: 21,
@@ -231,7 +198,7 @@ export const data = [
       {
         name: "Pink Colada",
         slug: "pink-colada",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/newcocktail/pinkcolada.jpg",
         products: [
           {
             id: 21,
@@ -245,7 +212,7 @@ export const data = [
       {
         name: "Blue Colada",
         slug: "blue-colada",
-        image: "/images/cocktails/c-placeholder.jpg",
+        image: "/images/newcocktail/bluecolada.jpg",
         products: [
           {
             id: 21,
@@ -259,7 +226,7 @@ export const data = [
       {
         name: "Grace Cocktail",
         slug: "grace-cocktail",
-        image: "/images/cocktails/c-Grace Cocktail.jpg",
+        image: "/images/newcocktail/grace1.jpg",
         products: [
           {
             id: 32,
@@ -273,7 +240,7 @@ export const data = [
       {
         name: "Tropical Pleasure",
         slug: "rb-tropical-pleasure",
-        image: "/images/cocktails/c-Red Bull Cocktail Yellow.jpg",
+        image: "/images/newcocktail/rbapricotpleasure.jpg",
         products: [
           {
             id: 20,
@@ -287,7 +254,7 @@ export const data = [
       {
         name: "Colada",
         slug: "rb-colada",
-        image: "/images/cocktails/c-Red Bull Cocktail Sugarfree.jpg",
+        image: "/images/newcocktail/rbcolada.jpg",
         products: [
           {
             id: 21,
@@ -301,7 +268,7 @@ export const data = [
       {
         name: "Bull Goes Down",
         slug: "rb-bull-goes-down",
-        image: "/images/cocktails/c-Red Bull Cocktail Normal.jpg",
+        image: "/images/newcocktail/rbgoesdown.jpg",
         products: [
           {
             id: 22,
@@ -315,7 +282,7 @@ export const data = [
       {
         name: "Watermelon Pleasure",
         slug: "rb-watermelon-pleasure",
-        image: "/images/cocktails/c-Red Bull Cocktail Red.jpg",
+        image: "/images/newcocktail/rbwatermelonpleasure.jpg",
         products: [
           {
             id: 23,
@@ -329,41 +296,59 @@ export const data = [
     ],
   },
   {
-    category: "Special",
-    image: "/images/new cocktail/c-placeholder.jpg",
+    category: "Grace-Special",
+    image: "/images/gracecenter.jpg",
     subcategories: [
       {
-        name: "Fruit Shisha",
         slug: "fruit-shisha",
-        image: "/images/cocktails/c-placeholder.jpg",
+        name: "Fruit Shisha",
+        image: "/images/shisha2.jpg",
         products: [
           {
-            id: 32,
-            name: "Mojito",
-            description:
-              "Limetë (50gr), Sirup Mojito Mint (25ml), Sprite (200ml), Akull (70gr)",
-            price: "200 Den",
+            id: 27,
+            name: "Fruit Shisha Normal",
+            price: "3800 Den",
           },
-          // {
-          //   id: 13,
-          //   name: "Mojito Strawberry",
-          //   description:
-          //     "Limetë (50gr), Sirup Mojito Mint (25ml), Dredhëz (25ml), Kalina (25ml), Sprite (200ml), Akull (70gr)",
-          //   price: "200 Den",
-          // },
+          {
+            id: 27,
+            name: "Fruit Shisha Box",
+            price: "5000 Den",
+          },
+          {
+            id: 27,
+            name: "Fruit Shisha Energy Box",
+            price: "8000 Den",
+          },
+          {
+            id: 27,
+            name: "BIG Fruit Shisha - Special",
+            price: "Ask for price",
+          },
         ],
       },
       {
-        name: "Mojito Strawberry",
-        slug: "mojito-strawberry",
-        image: "/images/cocktails/c-Mojito.jpg",
+        name: "Redbull Box",
+        slug: "redbull-box",
+        image: "/images/redbullice.jpeg",
         products: [
           {
             id: 13,
-            name: "Mojito Strawberry",
-            description:
-              "Limetë (50gr), Sirup Mojito Mint (25ml), Dredhëz (25ml), Kalina (25ml), Sprite (200ml), Akull (70gr)",
-            price: "200 Den",
+            name: "Redbull Box",
+            description: "Ice, Box with 10 Redbulls",
+            price: "3000 Den",
+          },
+        ],
+      },
+      {
+        name: "Grace Bomb",
+        slug: "grace-bomb",
+        image: "/images/redbullice.jpeg",
+        products: [
+          {
+            id: 13,
+            name: "Grace Bomb",
+            description: "Ice, Box with 10 Redbulls",
+            price: "3500 Den",
           },
         ],
       },
@@ -433,12 +418,12 @@ export const data = [
   // },
   {
     category: "food",
-    image: "/images/cocktails/c-Pizza.jpg",
+    image: "/images/newcocktail/pizza.jpg",
     subcategories: [
       {
         name: "Pizza",
         slug: "pizza",
-        image: "/images/cocktails/c-Pizza.jpg",
+        image: "/images/newcocktail/pizza.jpg",
         products: [
           {
             id: 7,
@@ -532,7 +517,7 @@ export const data = [
       {
         name: "Desserts",
         slug: "desserts",
-        image: "/images/cocktails/c-Pancakes.jpg",
+        image: "/images/newcocktail/fruitsalad.jpg",
         products: [
           {
             id: 8,
@@ -567,6 +552,60 @@ export const data = [
           },
         ],
         reagents: { "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa" },
+        // reagents: {
+        //   1: "celery",
+        //   2: "wheat",
+        //   3: "crustaceans",
+        //   4: "eggs",
+        //   5: "fish",
+        //   6: "lupin",
+        //   7: "milk",
+        //   8: "oysters",
+        //   9: "mustard",
+        //   10: "almonds",
+        //   11: "hazelnuts",
+        //   12: "walnuts",
+        //   13: "brazil nuts",
+        //   14: "cashews",
+        //   15: "pecans",
+        //   16: "pistachios",
+        //   17: "peanuts",
+        //   18: "sesame seeds",
+        //   19: "soybeans",
+        //   20: "sulphur dioxide and sulphites",
+        // },
+      },
+      {
+        name: "Snacks",
+        slug: "snacls",
+        image: "/images/newcocktail/gracecup.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Nachos",
+            description: "Nachos, Kaçkavall i shkrirë, Sos Domatesh",
+            price: "200 Den",
+          },
+          {
+            id: 13,
+            name: "Sallatë Frutash",
+            description: "Ananas, Portokall, Molle Jeshile, Manafera",
+            price: "200 Den",
+          },
+          {
+            id: 13,
+            name: "Snack Box",
+            description: "-",
+            price: "200 Den",
+          },
+          {
+            id: 13,
+            name: "Grace Cup",
+            description: "-",
+            price: "200 Den",
+          },
+        ],
+        // reagents: { "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa" },
         // reagents: {
         //   1: "celery",
         //   2: "wheat",
@@ -648,7 +687,7 @@ export const data = [
       {
         name: "Energy Drinks",
         slug: "energy-drinks",
-        image: "/images/redbullice.jpeg",
+        image: "/images/newcocktail/rb.jpg",
         products: [
           {
             id: 6,
@@ -874,6 +913,31 @@ export const data = [
             id: 9,
             name: "Çokolladë e Nxehtë me Plazma",
             description: "Çokolladë (50gr), Qumësht (50ml), Plazma (10gr)",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Frappe",
+        slug: "frappe",
+        image: "/images/newcocktail/strawberryfrappe.jpg",
+        products: [
+          {
+            id: 12,
+            name: "Banana Frappe",
+            description: "Qumësht, Pluhur, Akull",
+            price: "200 Den",
+          },
+          {
+            id: 12,
+            name: "Strawberry Frappe",
+            description: "Qumësht, Pluhur, Akull",
+            price: "200 Den",
+          },
+          {
+            id: 12,
+            name: "Vanilla Frappe",
+            description: "Qumësht, Pluhur, Akull",
             price: "200 Den",
           },
         ],
