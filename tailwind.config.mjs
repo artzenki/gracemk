@@ -1,0 +1,23 @@
+const config = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./src/app/**/*.{js,jsx}", "./src/components/**/*.js"],
+  theme: {
+    extend: {
+      container: {
+        center: true,
+        padding: "1rem",
+      },
+      fontFamily: {
+        sans: ["var(--font-poppins)", ...config.fontFamily.sans],
+      },
+      colors: {
+        gray: {
+          ...config.colors.gray,
+          200: "#F4F4F4",
+        },
+      },
+    },
+  },
+  plugins: [],
+};

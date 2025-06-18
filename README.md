@@ -1,7 +1,3 @@
-# Grace Lounge MK
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-A website, displaying only images and a footer with powered by text. This website serves no other purpose except for using it as a digital menu by using images.
-
-GA4 is provided with cookie notice pop up.
-
-# artzenki
+## Getting Started 1 2 3 4
