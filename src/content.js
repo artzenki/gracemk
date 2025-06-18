@@ -300,7 +300,7 @@ export const data = [
         products: [
           {
             id: 13,
-            name: "blueberry Cocktail",
+            name: "Blueberry Cocktail",
             description: "Boronicë, Limun, Sirup, Akull",
             price: "200 Den",
           },
