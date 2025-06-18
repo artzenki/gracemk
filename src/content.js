@@ -306,7 +306,8 @@ export const data = [
           {
             id: 13,
             name: "Blueberry Cocktail",
-            description: "-",
+            description:
+              "Ananas, Bravo Boronicë, Sirup nga Boronica, Limon Rantcho, Akull",
             price: "200 Den",
           },
         ],
@@ -397,7 +398,7 @@ export const data = [
           {
             id: 13,
             name: "Kiwi Cocktail",
-            description: "Kiwi, Limun, Sirup, Akull",
+            description: "Kiwi, Mollë, Kiwi Puree, Lemon Rantcho, Akull",
             price: "200 Den",
           },
         ],
