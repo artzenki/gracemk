@@ -27,7 +27,7 @@ export default function SubcategoryPage({ data }) {
               </li>
             ))}
             {data.reagents && (
-              <div className="pb-16">
+              <div className="pb-24">
                 <div className="bg-black p-2 space-y-2">
                   {Object.keys(data.reagents).map((key) => (
                     <div key={key} className="flex items-center space-x-1">
