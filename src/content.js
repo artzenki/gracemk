@@ -233,7 +233,7 @@ export const data = [
             name: "Grace Cocktail",
             description:
               "Sirup nga Mango & Portokalli (25ml), Ananas (200ml), Portokall (100ml), Akull (70gr)",
-            price: "200 Den",
+            price: "350 Den",
           },
         ],
       },
@@ -301,7 +301,7 @@ export const data = [
           {
             id: 13,
             name: "Blueberry Cocktail",
-            description: "Boronicë, Limun, Sirup, Akull",
+            description: "-",
             price: "200 Den",
           },
         ],
@@ -314,12 +314,50 @@ export const data = [
           {
             id: 13,
             name: "Green Apple Lemonade",
-            description: "Mollë Jeshile, Limun, Sirup, Akull",
+            description: "Limun, Sirup nga Molla, Akull",
             price: "200 Den",
           },
         ],
       },
-
+      {
+        name: "Lavender Apple Lemonade",
+        slug: "lavender-lemonade",
+        image: "/images/newcocktail/lavenderlemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Lavender Lemonade",
+            description: "Limun, Sirup nga Lavanda, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Strawberry Lemonade",
+        slug: "strawberry-lemonade",
+        image: "/images/newcocktail/strawberrylemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Strawberry Lemonade",
+            description: "Limun, Sirup nga Dredhëza, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Watermelon Lemonade",
+        slug: "watermelon-lemonade",
+        image: "/images/newcocktail/watermelonlemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Watermelon Lemonade",
+            description: "Limun, Sirup nga Shalqiri, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
       {
         name: "Raspberry Lemonade",
         slug: "raspberry-lemonade",
@@ -328,7 +366,7 @@ export const data = [
           {
             id: 13,
             name: "Raspberry Lemonade",
-            description: "Raspberry, Limun, Sirup, Akull",
+            description: "Limun, Sirup nga Malina, Akull",
             price: "200 Den",
           },
         ],
@@ -341,7 +379,7 @@ export const data = [
           {
             id: 13,
             name: "Rose Lemonade",
-            description: "Rose, Limun, Sirup, Akull",
+            description: "Limun, Sirup nga Rosa, Akull",
             price: "200 Den",
           },
         ],
@@ -496,42 +534,42 @@ export const data = [
             name: "Pizza Capricciosa",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Mish i thatë (50gr), Suxhuk (50gr), Kërpudha (40gr) ",
-            price: "200 Den",
+            price: "300 Den",
           },
           {
             id: 7,
             name: "Pizza Tuna",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Tuna (60gr)",
-            price: "200 Den",
+            price: "300 Den",
           },
           {
             id: 7,
             name: "Pizza Margarita",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr)",
-            price: "200 Den",
+            price: "270 Den",
           },
           {
             id: 7,
             name: "Pizza Quattro Formaggi",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Gorgonzola (20gr), Cheddar (20gr)",
-            price: "200 Den",
+            price: "300 Den",
           },
           {
             id: 7,
             name: "Pizza Vegetariana",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Qepë (15gr), Domate (50gr), Speca (50gr)",
-            price: "200 Den",
+            price: "250 Den",
           },
           {
             id: 7,
             name: "Pizza Calzone",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Mish i thatë (50gr), Suxhuk (50gr), Susam (5gr) ",
-            price: "200 Den",
+            price: "220 Den",
           },
           {
             id: 7,
@@ -545,28 +583,28 @@ export const data = [
             name: "Pizza Rucola",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Rucola (10gr), Domate Cherry (50gr), Parmesan (5gr)",
-            price: "200 Den",
+            price: "300 Den",
           },
           {
             id: 7,
             name: "Pizza Grace",
             description:
               "Brum* (220gr), Sos Domatesh (20ml), Mozzarella (20gr), Kaçkavall (50gr), Mish i thatë (50gr), Suxhuk (50gr), Kërpudha (40gr), Një vezë ",
-            price: "200 Den",
+            price: "350 Den",
           },
           {
             id: 7,
             name: "Mini Pizza",
             description:
               "Brum* (170gr), Sos Domatesh (15ml), Mozzarella (15gr), Kaçkavall (35gr), Mish i thatë (35gr), Suxhuk (35gr), Kërpudha (30gr) ",
-            price: "200 Den",
+            price: "240 Den",
           },
           {
             id: 7,
             name: "Club Sandwich",
             description:
               "Bukë (100gr), Kaçkavall (30gr), Mish i thatë (30gr,), Suxhuk (35gr)",
-            price: "200 Den",
+            price: "150 Den",
           },
           {
             id: 7,
@@ -587,6 +625,12 @@ export const data = [
         products: [
           {
             id: 8,
+            name: "Pallaçinka 1/2",
+            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
+            price: "140 Den",
+          },
+          {
+            id: 8,
             name: "Pallaçinka",
             description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
             price: "200 Den",
@@ -594,15 +638,15 @@ export const data = [
           {
             id: 8,
             name: "Sweet Pasta",
-            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
+            description: "Brum* (70gr), Çokollada (30gr), Krem Festëku (50gr), Fruta Sezonale",
+            price: "220 Den",
+          },
+          {
+            id: 8,
+            name: "Verë Dimër",
+            description: "Brum* (70gr), Çokollada (30gr), Një vezë",
             price: "200 Den",
           },
-          // {
-          //   id: 8,
-          //   name: "Verë Dimër",
-          //   description: "Brum* (70gr), Çokollada (30gr), Një vezë",
-          //   price: "200 Den",
-          // },
           // {
           //   id: 8,
           //   name: "Waffles",
@@ -656,7 +700,7 @@ export const data = [
             id: 13,
             name: "Nachos me sos",
             description: "Çipsa (40gr), Sos Domatesh (30gr), Kaçkavall (30gr)",
-            price: "200 Den",
+            price: "170 Den",
           },
           {
             id: 13,
@@ -667,14 +711,14 @@ export const data = [
           {
             id: 13,
             name: "Snack Box",
-            description: "-",
+            description: "Kikiriki, Çokollada Mix, Haribo",
             price: "200 Den",
           },
           {
             id: 13,
             name: "Grace Cup",
-            description: "-",
-            price: "200 Den",
+            description: "Kaçkavall, Suxhuk, Mish i Thatë",
+            price: "-",
           },
         ],
         // reagents: { "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa" },
@@ -717,6 +761,12 @@ export const data = [
           {
             id: 5,
             name: "Fanta Shokata",
+            price: "90 Den",
+            description: "250ml",
+          },
+          {
+            id: 5,
+            name: "Schweppes Bitter Lemon",
             price: "90 Den",
             description: "250ml",
           },
@@ -765,7 +815,7 @@ export const data = [
           },
           {
             id: 6,
-            name: "Redbull The Yellow Edition",
+            name: "Redbull Apricot Edition",
             price: "200 Den",
             description: "250ml",
           },
@@ -786,73 +836,73 @@ export const data = [
             id: 10,
             name: "Portokall",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Mollë",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Boronicë",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Banane & Dredhëz",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Ice Tea Limun",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Ice Tea Pjeshkë",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Multivitamin",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Dredhëz",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Vishnje",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Pjeshkë",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Ananas",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
           {
             id: 10,
             name: "Kivi",
             description: "250ml",
-            price: "200 Den",
+            price: "100 Den",
           },
         ],
       },
@@ -871,43 +921,61 @@ export const data = [
             id: 9,
             name: "Espresso e Vogël",
             description: "Kafe (7gr)",
-            price: "200 Den",
+            price: "60 Den",
           },
-          {
-            id: 9,
-            name: "Espresso e Madhe",
-            description: "Kafe (12gr)",
-            price: "200 Den",
-          },
+          // {
+          //   id: 9,
+          //   name: "Espresso e Madhe",
+          //   description: "Kafe (12gr)",
+          //   price: "200 Den",
+          // },
           {
             id: 9,
             name: "Makiato e Vogël",
             description: "Kafe (7gr), Qumësht (10ml)",
-            price: "200 Den",
+            price: "60 Den",
           },
           {
             id: 9,
             name: "Makiato e Madhe",
             description: "Kafe (12gr), Qumësht (20ml)",
-            price: "200 Den",
+            price: "70 Den",
           },
           {
             id: 9,
-            name: "Prevërteno me Qumësht",
+            name: "Iced Coffee",
             description: "Kafe (7gr), Qumësht (10ml)",
-            price: "200 Den",
+            price: "70 Den",
+          },
+          {
+            id: 9,
+            name: "Americano",
+            description: "Kafe (7gr)",
+            price: "70 Den",
+          },
+          {
+            id: 9,
+            name: "Latte Macchiatto",
+            description: "Kafe (10gr), Qumësht (20ml)",
+            price: "80 Den",
           },
           {
             id: 9,
             name: "Nescaffe me Qumësht",
             description: "Kafe (10gr), Qumësht (20ml)",
-            price: "200 Den",
+            price: "80 Den",
+          },
+          {
+            id: 9,
+            name: "Cappuchino e vogël me Qumësht",
+            description: "Kafe (7gr), Qumësht (20ml) me Shllag",
+            price: "60 Den",
           },
           {
             id: 9,
             name: "Cappuchino e Madhe me Qumësht",
             description: "Kafe (12gr), Qumësht (20ml) me Shllag",
-            price: "200 Den",
+            price: "70 Den",
           },
         ],
       },
@@ -982,19 +1050,19 @@ export const data = [
             id: 12,
             name: "Banana Frappe",
             description: "Qumësht, Pluhur, Akull",
-            price: "200 Den",
+            price: "-",
           },
           {
             id: 12,
             name: "Strawberry Frappe",
             description: "Qumësht, Pluhur, Akull",
-            price: "200 Den",
+            price: "-",
           },
           {
             id: 12,
             name: "Vanilla Frappe",
             description: "Qumësht, Pluhur, Akull",
-            price: "200 Den",
+            price: "-",
           },
         ],
       },
