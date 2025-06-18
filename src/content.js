@@ -13,6 +13,11 @@ export const data = [
             name: "Shisha",
             price: "400 Den",
           },
+          {
+            id: 26,
+            name: "Shisha Grace",
+            price: "600 Den",
+          },
         ],
       },
       {
@@ -638,7 +643,8 @@ export const data = [
           {
             id: 8,
             name: "Sweet Pasta",
-            description: "Brum* (70gr), Çokollada (30gr), Krem Festëku (50gr), Fruta Sezonale",
+            description:
+              "Brum* (70gr), Çokollada (30gr), Krem Festëku (50gr), Fruta Sezonale",
             price: "220 Den",
           },
           {
