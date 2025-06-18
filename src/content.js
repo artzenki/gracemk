@@ -1,12 +1,12 @@
 export const data = [
   {
     category: "shishas",
-    image: "/images/shisha-b.jpg",
+    image: "/images/newcocktail/shisha1.JPG",
     subcategories: [
       {
         slug: "shishas",
         name: "Shisha",
-        image: "/images/shisha1.jpg",
+        image: "/images/newcocktail/shisha1.JPG",
         products: [
           {
             id: 26,
@@ -238,13 +238,13 @@ export const data = [
         ],
       },
       {
-        name: "Tropical Pleasure",
-        slug: "rb-tropical-pleasure",
+        name: "Apricot Pleasure",
+        slug: "rb-apricot-pleasure",
         image: "/images/newcocktail/rbapricotpleasure.jpg",
         products: [
           {
             id: 20,
-            name: "Tropical Pleasure",
+            name: "Apricot Pleasure",
             price: "270 Den",
             description:
               "Redbull pa Sheqer (250ml), Ananas (50ml), Akull (70gr)",
@@ -293,6 +293,72 @@ export const data = [
           },
         ],
       },
+      {
+        name: "Blueberry Cocktail",
+        slug: "blueberry-cocktail",
+        image: "/images/newcocktail/blueberrylemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "blueberry Cocktail",
+            description: "Boronicë, Limun, Sirup, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Green Apple Lemonade",
+        slug: "greenapple-lemonade",
+        image: "/images/newcocktail/greenapplelemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Green Apple Lemonade",
+            description: "Mollë Jeshile, Limun, Sirup, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
+
+      {
+        name: "Raspberry Lemonade",
+        slug: "raspberry-lemonade",
+        image: "/images/newcocktail/raspberrylemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Raspberry Lemonade",
+            description: "Raspberry, Limun, Sirup, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Rose Lemonade",
+        slug: "rose-lemonade",
+        image: "/images/newcocktail/roselemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Rose Lemonade",
+            description: "Rose, Limun, Sirup, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        name: "Kiwi Cocktail",
+        slug: "kiwi-cocktail",
+        image: "/images/newcocktail/kiwilemonade.jpg",
+        products: [
+          {
+            id: 13,
+            name: "Kiwi Cocktail",
+            description: "Kiwi, Limun, Sirup, Akull",
+            price: "200 Den",
+          },
+        ],
+      },
     ],
   },
   {
@@ -329,7 +395,7 @@ export const data = [
       {
         name: "Redbull Box",
         slug: "redbull-box",
-        image: "/images/redbullice.jpeg",
+        image: "/images/newcocktail/redbullbox1.jpg",
         products: [
           {
             id: 13,
@@ -342,7 +408,7 @@ export const data = [
       {
         name: "Grace Bomb",
         slug: "grace-bomb",
-        image: "/images/redbullice.jpeg",
+        image: "/images/newcocktail/gracebomb.jpg",
         products: [
           {
             id: 13,
@@ -527,29 +593,35 @@ export const data = [
           },
           {
             id: 8,
-            name: "Verë Dimër",
-            description: "Brum* (70gr), Çokollada (30gr), Një vezë",
+            name: "Sweet Pasta",
+            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
             price: "200 Den",
           },
-          {
-            id: 8,
-            name: "Waffles",
-            description: "Brum* (120gr), Çokollada (30gr)",
-            price: "200 Den",
-          },
-          {
-            id: 8,
-            name: "Sallatë Frutash",
-            description:
-              "Banane (50gr), Kivi (50gr), Portokall (50gr), Malina (20gr), Mandarina (50gr), Pjeshkë (50gr), Nektarina (50gr)",
-            price: "200 Den",
-          },
-          {
-            id: 8,
-            name: "Nachos me sos",
-            description: "Çipsa (40gr), Sos Domatesh (30gr), Kaçkavall (30gr)",
-            price: "200 Den",
-          },
+          // {
+          //   id: 8,
+          //   name: "Verë Dimër",
+          //   description: "Brum* (70gr), Çokollada (30gr), Një vezë",
+          //   price: "200 Den",
+          // },
+          // {
+          //   id: 8,
+          //   name: "Waffles",
+          //   description: "Brum* (120gr), Çokollada (30gr)",
+          //   price: "200 Den",
+          // },
+          // {
+          //   id: 8,
+          //   name: "Sallatë Frutash",
+          //   description:
+          //     "Banane (50gr), Kivi (50gr), Portokall (50gr), Malina (20gr), Mandarina (50gr), Pjeshkë (50gr), Nektarina (50gr)",
+          //   price: "200 Den",
+          // },
+          // {
+          //   id: 8,
+          //   name: "Nachos me sos",
+          //   description: "Çipsa (40gr), Sos Domatesh (30gr), Kaçkavall (30gr)",
+          //   price: "200 Den",
+          // },
         ],
         reagents: { "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa" },
         // reagents: {
@@ -577,13 +649,13 @@ export const data = [
       },
       {
         name: "Snacks",
-        slug: "snacls",
+        slug: "snacks",
         image: "/images/newcocktail/gracecup.jpg",
         products: [
           {
             id: 13,
-            name: "Nachos",
-            description: "Nachos, Kaçkavall i shkrirë, Sos Domatesh",
+            name: "Nachos me sos",
+            description: "Çipsa (40gr), Sos Domatesh (30gr), Kaçkavall (30gr)",
             price: "200 Den",
           },
           {
@@ -898,25 +970,25 @@ export const data = [
           },
         ],
       },
-      {
-        name: "Çokollada e Nxehtë",
-        slug: "hot-chocolate",
-        image: "/images/c-hotchocolate2.jpeg",
-        products: [
-          {
-            id: 9,
-            name: "Çokolladë e Nxehtë",
-            description: "Çokolladë (50gr), Qumësht (50ml)",
-            price: "200 Den",
-          },
-          {
-            id: 9,
-            name: "Çokolladë e Nxehtë me Plazma",
-            description: "Çokolladë (50gr), Qumësht (50ml), Plazma (10gr)",
-            price: "200 Den",
-          },
-        ],
-      },
+      // {
+      //   name: "Çokollada e Nxehtë",
+      //   slug: "hot-chocolate",
+      //   image: "/images/c-hotchocolate2.jpeg",
+      //   products: [
+      //     {
+      //       id: 9,
+      //       name: "Çokolladë e Nxehtë",
+      //       description: "Çokolladë (50gr), Qumësht (50ml)",
+      //       price: "200 Den",
+      //     },
+      //     {
+      //       id: 9,
+      //       name: "Çokolladë e Nxehtë me Plazma",
+      //       description: "Çokolladë (50gr), Qumësht (50ml), Plazma (10gr)",
+      //       price: "200 Den",
+      //     },
+      //   ],
+      // },
       {
         name: "Frappe",
         slug: "frappe",
