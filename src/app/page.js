@@ -20,7 +20,7 @@ export default function Home() {
           alt={"Background image"}
           className="w-96 h-24 mx-auto"
         />
-        <div className="max-w-[900px] mx-auto pb-16">
+        <div className="max-w-[900px] mx-auto pb-24">
           <div className="grid grid-cols-1 gap-4 py-4">
             {data.map((item) => {
               return (
