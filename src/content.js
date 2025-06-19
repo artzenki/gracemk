@@ -464,7 +464,6 @@ export const data = [
           {
             id: 13,
             name: "Redbull Box",
-            description: "Ice, Box with 10 Redbulls",
             price: "3000 Den",
           },
         ],
@@ -477,7 +476,6 @@ export const data = [
           {
             id: 13,
             name: "Grace Bomb",
-            description: "Ice, Box with 10 Redbulls",
             price: "3500 Den",
           },
         ],
