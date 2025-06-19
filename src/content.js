@@ -484,130 +484,7 @@ export const data = [
       },
     ],
   },
-  {
-    category: "Desserts",
-    image: "/images/newcocktail/chocolatelava.jpg",
-    subcategories: [
-      {
-        slug: "pallacinka",
-        name: "Pallaçinka",
-        image: "/images/newcocktail/crepe.jpg",
-        products: [
-          {
-            id: 8,
-            name: "Pallaçinka 1/2",
-            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
-            price: "140 Den",
-          },
-          {
-            id: 8,
-            name: "Pallaçinka",
-            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
-            price: "200 Den",
-          },
-        ],
-        reagents: {
-          "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa",
-        },
-      },
-      {
-        slug: "sweet-pasta",
-        name: "Sweet Pasta",
-        image: "/images/newcocktail/sweetpasta.jpg",
-        products: [
-          {
-            id: 8,
-            name: "Sweet Pasta",
-            description:
-              "Brum* (70gr), Çokollada (30gr), Krem Festëku (50gr), Fruta Sezonale",
-            price: "220 Den",
-          },
-        ],
-        reagents: {
-          "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa",
-        },
-      },
-      {
-        slug: "vere-dimer",
-        name: "Verë - Dimër",
-        image: "/images/newcocktail/chocolatelava.jpg",
-        products: [
-          {
-            id: 8,
-            name: "Verë Dimër",
-            description: "Brum* (70gr), Çokollada (30gr), Një vezë",
-            price: "200 Den",
-          },
-        ],
-      },
-      // {
-      //   slug: "waffles",
-      //   name: "Waffles",
-      //   image: "/images/cocktails/c-placeholder.jpg",
-      //   products: [
-      //     {
-      //       id: 8,
-      //       name: "Waffles",
-      //       description: "Brum* (120gr), Çokollada (30gr)",
-      //       price: "200 Den",
-      //     },
-      //   ],
-      // },
-      {
-        slug: "fruitsalad",
-        name: "Sallatë Frutash",
-        image: "/images/newcocktail/fruitsalad.jpg",
-        products: [
-          {
-            id: 8,
-            name: "Sallatë Frutash",
-            description:
-              "Banane (50gr), Kivi (50gr), Portokall (50gr), Malina (20gr), Mandarina (50gr), Pjeshkë (50gr), Nektarina (50gr)",
-            price: "200 Den",
-          },
-        ],
-      },
-      {
-        slug: "nachos",
-        name: "Nachos me Sos",
-        image: "/images/newcocktail/nachos.jpg",
-        products: [
-          {
-            id: 8,
-            name: "Nachos me Sos",
-            description: "Çipsa (40gr), Sos Domatesh (30gr), Kaçkavall (30gr)",
-            price: "200 Den",
-          },
-        ],
-      },
-      {
-        slug: "snackbox",
-        name: "Snack Box",
-        image: "/images/newcocktail/snackbox.jpg",
-        products: [
-          {
-            id: 8,
-            name: "Snack Box",
-            description: "Kikiriki, Çokollada Mix, Haribo",
-            price: "200 Den",
-          },
-        ],
-      },
-      {
-        slug: "gracecup",
-        name: "Grace Cup",
-        image: "/images/newcocktail/gracecup.jpg",
-        products: [
-          {
-            id: 8,
-            name: "Grace Cup",
-            description: "Kaçkavall, Suxhuk, Mish i Thatë",
-            price: "180 Den",
-          },
-        ],
-      },
-    ],
-  },
+
   // {
   //   category: "redbull-cocktails",
   //   image: "/images/cocktails/c-Red Bull Cocktail Red.jpg",
@@ -789,6 +666,130 @@ export const data = [
           },
         ],
         reagents: { "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa" },
+      },
+    ],
+  },
+  {
+    category: "Desserts",
+    image: "/images/newcocktail/chocolatelava.jpg",
+    subcategories: [
+      {
+        slug: "pallacinka",
+        name: "Pallaçinka",
+        image: "/images/newcocktail/crepe.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Pallaçinka 1/2",
+            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
+            price: "140 Den",
+          },
+          {
+            id: 8,
+            name: "Pallaçinka",
+            description: "Brum* (70gr), Çokollada (30gr), Banana (50gr)",
+            price: "200 Den",
+          },
+        ],
+        reagents: {
+          "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa",
+        },
+      },
+      {
+        slug: "sweet-pasta",
+        name: "Sweet Pasta",
+        image: "/images/newcocktail/sweetpasta.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Sweet Pasta",
+            description:
+              "Brum* (70gr), Çokollada (30gr), Krem Festëku (50gr), Fruta Sezonale",
+            price: "220 Den",
+          },
+        ],
+        reagents: {
+          "": "Çdo Brum është i përbërë nga: Mielli, Uji dhe Kripa",
+        },
+      },
+      {
+        slug: "vere-dimer",
+        name: "Verë - Dimër",
+        image: "/images/newcocktail/chocolatelava.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Verë Dimër",
+            description: "Brum* (70gr), Çokollada (30gr), Një vezë",
+            price: "200 Den",
+          },
+        ],
+      },
+      // {
+      //   slug: "waffles",
+      //   name: "Waffles",
+      //   image: "/images/cocktails/c-placeholder.jpg",
+      //   products: [
+      //     {
+      //       id: 8,
+      //       name: "Waffles",
+      //       description: "Brum* (120gr), Çokollada (30gr)",
+      //       price: "200 Den",
+      //     },
+      //   ],
+      // },
+      {
+        slug: "fruitsalad",
+        name: "Sallatë Frutash",
+        image: "/images/newcocktail/fruitsalad.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Sallatë Frutash",
+            description:
+              "Banane (50gr), Kivi (50gr), Portokall (50gr), Malina (20gr), Mandarina (50gr), Pjeshkë (50gr), Nektarina (50gr)",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        slug: "nachos",
+        name: "Nachos me Sos",
+        image: "/images/newcocktail/nachos.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Nachos me Sos",
+            description: "Çipsa (40gr), Sos Domatesh (30gr), Kaçkavall (30gr)",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        slug: "snackbox",
+        name: "Snack Box",
+        image: "/images/newcocktail/snackbox.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Snack Box",
+            description: "Kikiriki, Çokollada Mix, Haribo",
+            price: "200 Den",
+          },
+        ],
+      },
+      {
+        slug: "gracecup",
+        name: "Grace Cup",
+        image: "/images/newcocktail/gracecup.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Grace Cup",
+            description: "Kaçkavall, Suxhuk, Mish i Thatë",
+            price: "180 Den",
+          },
+        ],
       },
     ],
   },
