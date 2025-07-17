@@ -746,7 +746,7 @@ export const data = [
             name: "Sallatë Frutash",
             description:
               "Banane (50gr), Kivi (50gr), Portokall (50gr), Malina (20gr), Mandarina (50gr), Pjeshkë (50gr), Nektarina (50gr)",
-            price: "200 Den",
+            price: "250 Den",
           },
         ],
       },
@@ -789,6 +789,30 @@ export const data = [
           },
         ],
       },
+      {
+        slug: "croissant-nutella",
+        name: "Nutella Croissant",
+        image: "/images/newcocktail/croissant-chocolate.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Croissant with Nutella",
+            price: "70 Den",
+          },
+        ],
+      },
+      {
+        slug: "croissant-pistachio",
+        name: "Pistachio Croissant",
+        image: "/images/newcocktail/croissant-pistachio.jpg",
+        products: [
+          {
+            id: 8,
+            name: "Croissant with Pistachio",
+            price: "70 Den",
+          },
+        ],
+      },
     ],
   },
   {
@@ -803,49 +827,49 @@ export const data = [
           {
             id: 5,
             name: "Coca Cola",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
           {
             id: 5,
             name: "Coca Cola Zero",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
           {
             id: 5,
             name: "Fanta Orange",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
           {
             id: 5,
             name: "Fanta Shokata",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
           {
             id: 5,
             name: "Schweppes Bitter Lemon",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
           {
             id: 5,
             name: "Schweppes Tonic",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
           {
             id: 5,
             name: "Sprite",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
           {
             id: 5,
             name: "Schweppes Tangerine",
-            price: "90 Den",
+            price: "100 Den",
             description: "250ml",
           },
         ],
